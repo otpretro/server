@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<monster name="Paras" namedescription="a Paras" race="bug" experience="240" speed="130" manacost="275">
+  <health now="1850" max="1850"/>
+  <look type="81" head="20" body="30" legs="40" feet="50" corpse="3007"/>
+
+
+<targetchange interval="8000" chance="0" />
+<strategy attack="100" defense="10" />
+
+<!--Flags-->
+
+<flags>
+    <flag summonable="1"/>        
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  
+   <script>
+<event name="cabum"/>
+</script>
+
+  <attacks>
+    <attack name="melee" interval="2000" skill="23" attack="15" poison="100"/>
+<attack name="aurainseto" interval="6900" chance="100" range="3" min="-91" max="-151"/>
+   
+  </attacks>
+  <defenses armor="1" defense="4"/>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="1"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="0"/>
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="zzzzzz"/>
+  </voices>
+  <loot>
+		<item id="2284" chance="50" count="1" countmax="1"/>
+		<item id="2787"  count="3" countmax="1" chance="9800"/>
+		<item id="5914" count="2" countmax="1" chance="1000"/>
+		<item id="9460"  count="1" countmax="1" chance="4100"/>
+		<item id="11082" count="1" countmax="1" chance="50"/>
+
+  </loot>
+ <script>
+<event name="BlockHit6"></event>
+</script>
+</monster>

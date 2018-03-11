@@ -1,0 +1,48 @@
+Pokedex:
+
+---------Informações----------
+--Nome:  Feebas
+--Level Minimo Necessário: 50
+--Tipo: ( Water )
+
+-Habilidades Especiais:
+--Surf (Surfar, clique na beira do rio.)
+
+- Evolução
+-- Milotic - Level 130 - 1 Water Stone. 
+
+- Transdorma em Shiny
+-- Não tem..
+
+-----------Ataques-----------
+- Move 1 [m1]:
+-- Ataque: Bubbles
+-- Nível minimo: 1
+-- Tipo do ataque: water
+--  CoolDown: 8 segundos
+
+- Move 2 [m2]:
+-- Ataque: Waterball
+-- Nível minimo: 10
+-- Tipo do ataque: water
+--  CoolDown: 4 segundos
+
+- Move 3 [m3]:
+-- Ataque: Bubble Beam
+-- Nível minimo: 20
+-- Tipo do ataque: water
+--  CoolDown: 8 segundos
+
+- Move 4 [m4]:
+-- Ataque: Dragon Breath
+-- Nível minimo: 45
+-- Tipo do ataque: dragon
+--  CoolDown: 6 segundos
+
+- Move 5 [m5]:
+-- Ataque: Hydro Cannon
+-- Nível minimo: 50
+-- Tipo do ataque: water
+--  CoolDown: 8 segundos
+-
+

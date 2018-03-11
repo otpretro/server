@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Jigglypuff" nameDescription="a Jigglypuff" race="fairy" experience="1141" speed="230" manacost="0">
+  <health now="1600" max="1600"/>
+  <look type="63" head="20" body="30" legs="40" feet="50" corpse="6011"/>
+
+<targetchange interval="8000" chance="0" />
+<strategy attack="100" defense="10" />
+
+<!--Flags-->
+
+<flags>
+    <flag summonable="1"/>        
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  
+   <script>
+<event name="cabum"/>
+</script>
+
+
+  <attacks>
+    <attack name="melee" interval="2000" skill="25" attack="20"/>
+   <attack name="auranormal" interval="9200" chance="100" min="-10" max="-200"/>
+  </attacks>
+
+
+  <defenses armor="15" defense="60">
+  </defenses>
+
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="1"/>
+    <immunity fire="1"/>
+    <immunity poison="1"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="Puff!"/>
+  </voices>
+<loot>
+
+		<item id="2789"  count="1" countmax="1" chance="10000"/>
+		<item id="5877" count="1" countmax="1" chance="1000"/>
+		<item id="5888"  count="1" countmax="1" chance="3400"/>
+		<item id="2289" count="1" countmax="1" chance="50"/>
+		<item id="2289"  count="1" countmax="1" chance="100"/>
+		<item id="2689"  count="2" countmax="1" chance="150"/>
+		<item id="11266"  count="1" countmax="1" chance="2000"/>
+		<item id="5876"  count="1" countmax="1" chance="7000"/>
+</loot>
+ <script>
+<event name="BlockHit6"></event>
+</script>
+</monster>

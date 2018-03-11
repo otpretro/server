@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Metagross" nameDescription="a shiny metagross" race="steel" experience="0" speed="200" manacost="0">
+  <health now="16000" max="16000"/>
+  <look type="1800" head="113" body="57" legs="95" feet="113" corpse="10833"/>
+
+<targetchange interval="8000" chance="0" />
+<strategy attack="100" defense="60" />
+
+<!--Flags-->
+
+<flags>
+    <flag summonable="1"/>        
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+    <flag walkable="1"/>
+  </flags>
+
+
+  <attacks>
+<attack name="melee" interval="2000" min="-120" max="-400"/>
+    <attack name="aurapsiquica" interval="2000" chance="90" min="-200" max="-550"> </attack>
+  </attacks>
+
+  <defenses armor="0" defense="100">
+  </defenses>
+
+<elements>
+	<element physicalPercent="60"/>
+        <element earthPercent="50"/>
+	<element energyPercent="20"/>
+	<element icePercent="-4"/>
+	<element deathPercent="10"/>
+	<element firePercent="-25"/>
+	<element holyPercent="-25"/>
+	<element poisonPercent="5"/>
+	<element drownPercent="50"/>
+</elements>
+
+  <voices interval="3000" chance="70">
+	<voice sentence="Metagross"/>
+    <voice sentence="Metagross"/>
+  </voices>
+
+  <loot>
+        <item id="5882" chance="9000" count="5" countmax="1"/>
+        <item id="5902" chance="7000" count="1" countmax="1"/>
+        <item id="5920" chance="3000" count="1" countmax="1"/>
+        <item id="2288" chance="50" count="1" countmax="1"/>
+        <item id="11074" chance="100" count="1" countmax="1"/>
+        <item id="8204" chance="100" count="1" countmax="1"/>
+
+  </loot>
+</monster>

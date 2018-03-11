@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<globalevents>
+
+<globalevent name="qtb" interval="3" event="script" value="questb.lua"/>
+
+<!-- <globalevent name="shop" interval="1" event="script" value="shop.lua"/> -->
+<globalevent name="loteriaa" time="18:05" event="script" value="loteria.lua"/>
+<globalevent name="loteriab" time="20:05" event="script" value="loteria.lua"/>
+<globalevent name="loteriao" time="22:05" event="script" value="loteria.lua"/>
+<globalevent name="loterias" time="00:05" event="script" value="loteria.lua"/>
+<globalevent name="loteriae" time="02:05" event="script" value="loteria.lua"/>
+<globalevent name="loteriaf" time="04:05" event="script" value="loteria.lua"/>
+<globalevent name="loteriag" time="06:05" event="script" value="loteria.lua"/>
+<globalevent name="loteriah" time="08:05" event="script" value="loteria.lua"/>
+<globalevent name="loteriai" time="10:05" event="script" value="loteria.lua"/>
+<globalevent name="loteriaj" time="12:05" event="script" value="loteria.lua"/>
+<globalevent name="loteriak" time="14:05" event="script" value="loteria.lua"/>
+<globalevent name="loterial" time="16:05" event="script" value="loteria.lua"/>
+<globalevent name="raids" interval="60" event="script" value="raid.lua"/>
+<globalevent name="rka" time="08:00" event="script" value="1.lua"/>
+<globalevent name="rkb" time="08:00" event="script" value="2.lua"/>
+<globalevent name="rkc" time="08:00" event="script" value="3.lua"/>
+<globalevent name="rkd" time="08:00" event="script" value="4.lua"/>
+<globalevent name="rke" time="08:00" event="script" value="5.lua"/>
+<globalevent name="rkf" time="15:30" event="script" value="1.lua"/>
+<globalevent name="rkg" time="15:30" event="script" value="2.lua"/>
+<globalevent name="rkh" time="15:30" event="script" value="3.lua"/>
+<globalevent name="rki" time="15:30" event="script" value="4.lua"/>
+<globalevent name="rkj" time="15:30" event="script" value="5.lua"/>
+<globalevent name="rkk" time="21:00" event="script" value="1.lua"/>
+<globalevent name="rkl" time="21:00" event="script" value="2.lua"/>
+<globalevent name="rkm" time="21:00" event="script" value="3.lua"/>
+<globalevent name="rkn" time="21:00" event="script" value="4.lua"/>
+<globalevent name="rko" time="21:00" event="script" value="5.lua"/>
+<globalevent name="rkp" time="03:00" event="script" value="1.lua"/>
+<globalevent name="rkq" time="03:00" event="script" value="2.lua"/>
+<globalevent name="rkr" time="03:00" event="script" value="3.lua"/>
+<globalevent name="rks" time="03:00" event="script" value="4.lua"/>
+<globalevent name="rkt" time="03:00" event="script" value="5.lua"/>
+<globalevent name="TournamentStart1" time="09:00" event="script" value="tournament1.lua"/>
+<globalevent name="TournamentStart2" time="12:30" event="script" value="tournament1.lua"/>
+<globalevent name="TournamentStart3" time="19:00" event="script" value="tournament1.lua"/>
+<globalevent name="TournamentStart4" time="23:00" event="script" value="tournament1.lua"/>
+<globalevent name="msgtorneio" interval="60" event="script" value="msg torneio.lua"/>
+<globalevent name="mensagem" interval="1700" event="script" value="mensagem.lua"/>
+<globalevent name="save" interval="1800" event="script" value="save.lua"/>
+<globalevent name="serverstart" type="start" event="script" value="start.lua"/>
+<globalevent name="playersrecord" type="record" event="script" value="record.lua"/>
+</globalevents>

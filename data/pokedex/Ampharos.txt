@@ -1,0 +1,21 @@
+Name: Ampharos
+Type: electric
+Required level: 50
+
+Evolutions:
+não tem
+
+
+Moves: 
+Mega Punch - m1 - level 50 - normal
+Thundershock - m2 - level 50 - electric
+Thunder shock - m3 - level 50 - electric
+Thunder Fang - m4 - level 62 - electric
+Thunder Wave - m5 - level 84 - electric
+Thunder - m6 - level 66 - electric
+Zap Cannon - m7 - level 88 - electric
+Electric Storm - m8 - level 90 - electric
+Agility - m9 - level 100 - flying
+
+Ability:
+Light

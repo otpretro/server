@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Wild Ekans" nameDescription="a Ekans" race="poison" experience="650" speed="290" manacost="360">
+  <health now="4650" max="4650"/>
+  <look type="7" head="20" body="30" legs="40" feet="50" corpse="5979"/>
+
+<targetchange interval="8000" chance="0" />
+<strategy attack="100" defense="10" />
+
+<!--Flags-->
+
+<flags>
+    <flag summonable="1"/>        
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  
+   <script>
+<event name="cabum"/>
+</script>
+
+  <attacks>
+    <attack name="melee" interval="2000" min="-20" max="-160" poison="25"/>
+        <attack name="auraveneno3" interval="11000" min="-20" max="-160" poison="25"/>
+    
+  </attacks>
+  <defenses armor="8" defense="14"/>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="0"/>
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="Ekaans."/>
+    <voice sentence="eeeeeee."/>
+    <voice sentence="kaaaans!"/>
+  </voices>
+  <loot>
+		<item id="11080" chance="50" count="1" countmax="1"/>
+		<item id="2278"  count="1" countmax="1" chance="50"/>
+		<item id="5896" count="2" countmax="1" chance="150"/>
+		<item id="11245"  count="1" countmax="1" chance="250"/>
+		<item id="11306" count="2" countmax="1" chance="5000"/>
+		<item id="11278"  count="4" countmax="1" chance="1100"/>
+                <item id="5930"  count="5" countmax="1" chance="900"/>
+                <item id="2328"  count="3" countmax="1" chance="900"/>
+  </loot>
+ <script>
+<event name="BlockHit6"></event>
+</script>
+</monster>

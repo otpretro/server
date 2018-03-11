@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Salamence" nameDescription="a Salamence" race="dragon" experience="7300" speed="260">
+  <health now="26500" max="26500"/>
+  <look type="780" head="0" body="0" legs="0" feet="0" corpse="12877"/>
+
+<targetchange interval="8000" chance="0" />
+<strategy attack="100" defense="30" />
+
+<!--Flags-->
+
+<flags>
+    <flag summonable="1"/>        
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+    <attacks>
+    <attack name="melee" interval="2000" min="-120" max="-550"/>
+  </attacks>
+
+  <voices interval="5000" chance="100">
+    <voice sentence="Salamence!"/>
+    <voice sentence="Salamence!"/>
+  </voices>
+
+<elements>
+	<element physicalPercent="60"/>
+        <element earthPercent="50"/>
+	<element energyPercent="20"/>
+	<element icePercent="-4"/>
+	<element deathPercent="10"/>
+	<element firePercent="-25"/>
+	<element holyPercent="-25"/>
+	<element poisonPercent="5"/>
+	<element drownPercent="50"/>
+</elements>
+  <defenses armor="100" defense="80">
+  </defenses>
+
+
+</monster>

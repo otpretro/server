@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Rayquaza" nameDescription="a Rayquaza" race="dragon" experience="152800" speed="300" manacost="0">
+  <health now="1850000" max="1850000"/>
+  <look type="758" head="0" body="0" legs="0" feet="0" corpse="9310"/>
+
+<targetchange interval="5000" chance="8" />
+<strategy attack="100" defense="10" />
+
+<!--Flags-->
+
+<flags>
+    <flag summonable="1"/>        
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  
+   <script>
+<event name="cabum"/>
+</script>
+
+<attacks>
+<attack name="melee" interval="1000" skill="25" attack="210"/>
+<attack name="auravoador" interval="3000" chance="100" range="3" min="-86" max="-360"/>
+<attack name="auravoador2" interval="4000" chance="100" range="3" min="-86" max="-260"/>
+<attack name="auravoador3" interval="5000" chance="100" range="3" min="-86" max="-530"/>
+</attacks>
+
+  <defenses armor="50" defense="60">
+    <defense name="healing" interval="3000" chance="100" min="500" max="12000">
+    </defense>
+    </defenses>
+    <elements>
+		<element firePercent="-15"/>
+		<element earthPercent="90"/>
+		<element physicalPercent="30"/>
+		<element icePercent="15"/>
+  </elements>
+  <immunities>
+  </immunities>
+  <voices interval="5000" chance="100">
+    <voice sentence="Rayquazaa!!"/>
+  </voices>
+ <loot>
+
+        <item id="2159" chance="70000" count="2" countmax="2"/>
+  </loot>
+
+<script>
+<event name="removeall2"/>
+</script>
+ <script>
+<event name="BlockHit6"></event>
+</script>
+</monster>

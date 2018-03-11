@@ -1,0 +1,295 @@
+function onUse(cid, item, fromPos, itemEx, toPos)
+
+
+function isSummon(sid)
+    for i, pid in ipairs(getPlayersOnline()) do
+        for c, cid in pairs(getCreatureSummons(pid)) do
+            if (cid == sid) then
+                return true
+            end
+        end 
+    end
+    return false
+end  
+
+local pkd = 1
+ 
+local pokemon = itemEx.uid
+local pokemons = {
+
+{"Bulbasaur", 5, 2377},
+{"Ivysaur", 6, 2378},
+{"Venusaur", 7, 2379},
+{"Charmander", 5, 2380},
+{"Charmeleon", 6, 2381},
+{"Charizard", 7, 2382},
+{"Squirtle", 5, 2383},
+{"Wartortle", 6, 2384},
+{"Blastoise", 7, 2385},
+{"Caterpie", 5, 2386},
+{"Metapod", 6, 2387},
+{"Butterfree", 7, 2388},
+{"Weedle", 5, 2389},
+{"Kakuna", 6, 2390},
+{"Beedrill", 7, 2391},
+{"Pidgey", 5, 2392},
+{"Pidgeotto", 6, 2393},
+{"Pidgeot", 7, 2394},
+{"Rattata", 5, 2395},
+{"Raticate", 6, 2396},
+{"Spearow", 7, 2397},
+{"Fearow", 5, 2398},
+{"Ekans", 6, 2399},
+{"Arbok", 7, 2400},
+{"Pikachu", 5, 2401},
+{"Raichu", 6, 2402},
+{"Sandshrew", 7, 2403},
+{"Sandslash", 5, 2404},
+{"Nidoran Female", 6, 2405},
+{"Nidorina", 7, 2406},
+{"Nidoqueen", 5, 2407},
+{"Nidoran Male", 6, 2408},
+{"Nidorino", 7, 2409},
+{"Nidoking", 5, 2410},
+{"Clefairy", 6, 2411},
+{"Clefable", 7, 2412},
+{"Vulpix", 5, 2413},
+{"Ninetales", 6, 2414},
+{"Jigglypuff", 7, 2415},
+{"Wigglytuff", 5, 2416},
+{"Zubat", 6, 2417},
+{"Golbat", 7, 2418},
+{"Oddish", 5, 2419},
+{"Gloom", 6, 2420},
+{"Vileplume", 7, 2421},
+{"Paras", 5, 2422},
+{"Parasect", 6, 2423},
+{"Venonat", 7, 2424},
+{"Venomoth", 5, 2425},
+{"Diglett", 6, 2426},
+{"Dugtrio", 7, 2427},
+{"Meowth", 5, 2428},
+{"Persion", 6, 2429},
+{"Psyduck", 7, 2430},
+{"Golduck", 5, 2431},
+{"Mankey", 6, 2432},
+{"Primeape", 7, 2433},
+{"Growlithe", 5, 2434},
+{"Arcanine", 6, 2435},
+{"Poliwag", 7, 2436},
+{"Poliwhirl", 5, 2437},
+{"Poliwrath", 6, 2438},
+{"Abra", 7, 2439},
+{"Kadabra", 5, 2440},
+{"Alakazam", 6, 2441},
+{"Machop", 7, 2442},
+{"Machoke", 5, 2443},
+{"Machamp", 6, 2444},
+{"Bellsprout", 7, 2445},
+{"Weepinbell", 5, 2446},
+{"Victreebel", 6, 2447},
+{"Tentacool", 7, 2448},
+{"Tentacruel", 5, 2449},
+{"Geodude", 6, 2450},
+{"Graveler", 7, 2451},
+{"Golem", 5, 2452},
+{"Ponyta", 6, 2453},
+{"Rapidash", 7, 2454},
+{"Slowpoke", 5, 2455},
+{"Slowbro", 6, 2456},
+{"Magnemite", 7, 2457},
+{"Magneton", 5, 2458},
+{"Farfetchd", 6, 2459},
+{"Doduo", 7, 2460},
+{"Dodrio", 5, 2461},
+{"Seel", 6, 2462},
+{"Dewgong", 7, 2463},
+{"Grimer", 5, 2464},
+{"Muk", 6, 2465},
+{"Shellder", 7, 2466},
+{"Cloyster", 5, 2467},
+{"Gastly", 6, 2468},
+{"Haunter", 7, 2469},
+{"Gengar", 5, 2470},
+{"Onix", 6, 2471},
+{"Drowzee", 7, 2472},
+{"Hypno", 5, 2473},
+{"Krabby", 6, 2474},
+{"Kingler", 7, 2475},
+{"Voltorb", 5, 2476},
+{"Electrode", 6, 2477},
+{"Exeggcute", 7, 2478},
+{"Exeggutor", 5, 2479},
+{"Cubone", 6, 2480},
+{"Marowak", 7, 2481},
+{"Hitmonlee", 5, 2482},
+{"Hitmonchan", 6, 2483},
+{"Lickitung", 7, 2484},
+{"Koffing", 5, 2485},
+{"Weezing", 6, 2486},
+{"Rhyhorn", 7, 2487},
+{"Rhydon", 5, 2488},
+{"Chansey", 6, 2489},
+{"Tangela", 7, 2490},
+{"Kangaskhan", 5, 2491},
+{"Horsea", 6, 2492},
+{"Seadra", 7, 2493},
+{"Goldeen", 5, 2494},
+{"Seaking", 6, 2495},
+{"Staryu", 7, 2496},
+{"Starmie", 5, 2497},
+{"Mrmime", 6, 2498},
+{"Scyther", 7, 2499},
+{"Jynx", 5, 2500},
+{"Electabuzz", 6, 2501},
+{"Magmar", 7, 2502},
+{"Pinsir", 5, 2503},
+{"Tauros", 6, 2504},
+{"Magikarp", 7, 2505},
+{"Gyarados", 5, 2506},
+{"Lapras", 6, 2507},
+{"Shiny Lapras", 10, 12645},
+{"Ditto", 5, 2508},
+{"Eevee", 6, 2509},
+{"Vaporeon", 7, 2510},
+{"Jolteon", 5, 2511},
+{"Flareon", 6, 2512},
+{"Shiny Flareon", 10, 12662},
+{"Porygon", 5, 2513},
+{"Omanyte", 6, 2514},
+{"Omastar", 7, 2515},
+{"Kabuto", 5, 2516},
+{"Kabutops", 6, 2517},
+{"Aerodactyl", 7, 2518},
+{"Snorlax", 5, 2519},
+{"Articuno", 6, 2520},
+{"Zapdos", 7, 2521},
+{"Moltres", 5, 2522},
+{"Dratini", 6, 2523},
+{"Dragonair", 7, 2524},
+{"Dragonite", 5, 2525},
+{"Mewtwo", 6, 2526},
+{"Mew", 7, 2527},
+
+{"Elekid", 5, 8959},
+
+{"Elder Charizard", 10, 2528},
+{"Shiny Alakazam", 10, 10910},
+
+{"Shiny Dragonite", 10, 10876},
+{"Shiny Blastoise", 10, 8728},
+
+{"Shiny Venomoth", 10, 147},
+{"Shiny Vileplume", 10, 12667},
+
+{"Shiny Aerodactyl", 10, 12669},
+{"Shiny Gengar", 10, 10912},
+
+
+{"Shiny Flygon", 10, 11380},
+{"Shiny Milotic", 10, 10901},
+{"Shiny Abra", 10, 145},
+{"Shiny Golem", 10, 10872},
+
+--2--
+{"Chikorita", 5, 8970},
+{"Bayleef", 6, 8971},
+{"Meganium", 7, 8972},
+
+{"Totodile", 5, 8976},
+{"Croconaw", 6, 8977},
+{"Feraligatr", 7, 8978},
+
+{"Cyndaquil", 5, 8973},
+{"Quilava", 6, 8974},
+{"Typhlosion", 7, 8975},
+
+{"Shiny Typhlosion", 10, 12646},
+{"Shiny Feraligatr", 10, 12696},
+{"Shiny Meganium", 10, 12697},
+
+--3--
+{"Shiny Tropius", 10, 10887},
+{"Tropius", 7, 9227},
+
+{"Metagross", 7, 9246},
+{"Metang", 6, 9245},
+{"Beldum", 5, 9244},
+{"Shiny Metagross", 10, 10890},
+
+{"Shiny Tangrowth", 10, 10894},
+{"Tangrowth", 7, 9730},
+
+{"Milotic", 7, 9217},
+{"Shiny Milotic", 10, 10901},
+{"Feebas", 5, 9216},
+{"Sentret", 5, 8979},
+{"Furret", 6, 8980},
+
+{"Shiny Salamence", 8, 12876},
+{"Salamence", 8, 12878},
+
+
+}
+
+for _,n in pairs(pokemons) do
+    if isSummon(pokemon) then
+                     if getCreatureName(pokemon) == n[1] and getPlayerLevel(cid) >= n[2] and getPlayerStorageValue(cid, n[3]) <= 0 then
+			j = (n[2]) * 25
+                        doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_ORANGE, "Uauuuu! Você acabou de desbloquear o pokémon " .. n[1] .. " em sua pokedex! Use novamente no pokemon pesquisado para ver suas informações.")
+                        doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_RED, "Você recebeu " .. j .. " EXP como recompensa, parabéns!")
+
+
+			doSendMagicEffect(getThingPos(cid), 210)
+                        doPlayerAddExperience(cid, (n[2])*8)
+                        setPlayerStorageValue(cid, n[3], 1)
+                     elseif getCreatureName(pokemon) == n[1] and getPlayerLevel(cid) < n[2] and getPlayerStorageValue(cid, n[3]) <= 0 then
+                        doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, "Você não tem level " .. n[2] .. " para saber informações desse pokemon no momento.")
+                     elseif getCreatureName(pokemon) == n[1] and getPlayerStorageValue(cid, n[3]) >= 1 then
+			local v = ((n[3]) + 0)
+		     local dexstring = ""..n[1]..".txt"
+		     local Dex = io.open('data/pokedex/'..dexstring, 'r')
+                        doShowTextDialog(cid, (v), Dex:read("*all"))
+                     Dex:close() 
+                     end   
+    elseif isMonster(pokemon) then
+                     if getCreatureName(pokemon) == n[1] and getPlayerStorageValue(cid, n[3]) <= 0 then
+			   j = (n[2]) * 25
+                           doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_ORANGE, "Uauuuu! Você acabou de desbloquear o pokémon " .. n[1] .. " em sua pokedex. Use novamente no pokemon pesquisado para ver suas informações.")
+                           doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_RED, "Você recebeu " .. j .. " EXP como recompensa, parabéns!")
+
+
+			   doSendMagicEffect(getThingPos(cid), 210)
+                           doPlayerAddExperience(cid, (n[2])*8)
+                           setPlayerStorageValue(cid, n[3], 1)
+                     elseif getCreatureName(pokemon) == n[1] and getPlayerStorageValue(cid, n[3]) >= 1 then
+			local v = ((n[3]) + 0)
+		     local dexstring = ""..n[1]..".txt"
+		     local Dex = io.open('data/pokedex/'..dexstring, 'r')
+                        doShowTextDialog(cid, v, Dex:read("*all"))
+			Dex:close()
+                     end
+    end
+end
+
+local store = {1001, 1002, 1003, 1004, 1005, 1006, 1007, 1008, 1009, 1010, 1011, 1012, 1013, 1014, 1015, 1016, 1017, 1018, 1019, 1020, 1021, 1022, 1023, 1024, 1025, 1026, 1027, 1028, 1029, 1030, 1031, 1032, 1033, 1034, 1035, 1036, 1037, 1038, 1039, 1040, 1041, 1042, 1043, 1044, 1045, 1046, 1047, 1048, 1049, 1050, 1051, 1052, 1053, 1054, 1055, 1056, 1057, 1058, 1059, 1060, 1061, 1062, 1063, 1064, 1065, 1066, 1067, 1068, 1069, 1070, 1071, 1072, 1073, 1074, 1075, 1076, 1077, 1078, 1079, 1080, 1081, 1082, 1083, 1084, 1085, 1086, 1087, 1088, 1089, 1090, 1091, 1092, 1093, 1094, 1095, 1096, 1097, 1098, 1099, 1100, 1101, 1102, 1103, 1104, 1105, 1106, 1107, 1108, 1109, 1110, 1111, 1112, 1113, 1114, 1115, 1116, 1117, 1118, 1119, 1120, 1121, 1122, 1123, 1124, 1125, 1126, 1127, 1128, 1129, 1130, 1131, 1132, 1133, 1134, 1135, 1136, 1137, 1138, 1139, 1140, 1141, 1142, 1143, 1144, 1145, 1146, 1147, 1148, 1149, 1150, 1151, 1152, 1153, 1154,}
+local unlock = {}
+			if not isCreature(itemEx.uid) then
+			return true
+			end
+                for i = 1, #store do
+                        if getPlayerStorageValue(itemEx.uid, store[i]) > 0 then
+                                table.insert(unlock, 1)
+                        end
+                end
+                
+        if isPlayer(itemEx.uid) then
+	                        setPlayerStorageValue(cid, 7274, 1)
+	if getCreatureName(cid) == getCreatureName(itemEx.uid) then
+                doPlayerSendTextMessage(cid, 27, getPlayerName(itemEx.uid) .. " Pokémon já pesquisado ainda sendo calculado")
+	else
+		doPlayerSendTextMessage(cid, 27, getPlayerName(itemEx.uid) .. " has unlocked pokemons already.")
+        end
+end
+return true
+end  

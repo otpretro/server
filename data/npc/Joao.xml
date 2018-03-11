@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Joao" script="data/npc/scripts/tesouro4.lua" walkinterval="0" floorchange="0" skull="1">
+    <health now="100" max="100"/>
+	<look type="1242"/>
+	<parameters>
+		<parameter key="message_greet" value="Oi |PLAYERNAME| tem noticias de Bianca e da minha panela de ouro ?"/>
+
+    </parameters>
+</npc>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Pinsir" nameDescription="a Pinsir" race="bug" experience="6263" speed="190" manacost="300">
+  <health now="14000" max="14000"/>
+  <look type="53" head="20" body="30" legs="40" feet="50" corpse="7282"/>
+
+<targetchange interval="8000" chance="0" />
+<strategy attack="100" defense="10" />
+
+<!--Flags-->
+
+<flags>
+    <flag summonable="1"/>        
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  
+   <script>
+<event name="cabum"/>
+</script>
+
+  <attacks>
+    <attack name="melee" interval="2000" skill="59" attack="11"/>
+    <attack name="aurainseto4" interval="6900" chance="100" range="3" min="-1" max="-251"/>
+  </attacks>
+
+  <defenses armor="7" defense="9"/>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="0"/>
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="Pinsirr"/>
+  </voices>
+  <loot>
+		<item id="2284" chance="50" count="1" countmax="1"/>
+		<item id="5912"  count="2" countmax="1" chance="7800"/>
+		<item id="6545" count="2" countmax="1" chance="1000"/>
+		<item id="6548"  count="1" countmax="1" chance="150"/>
+		<item id="5914" count="1" countmax="1" chance="570"/>
+
+  </loot>
+ <script>
+<event name="BlockHit6"></event>
+</script>
+</monster>

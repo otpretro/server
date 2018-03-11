@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Clefairy" nameDescription="a Clefairy" race="fairy" experience="150" speed="268" manacost="0">
+  <health now="11400" max="11400"/>
+  <look type="73" head="20" body="30" legs="40" feet="50" corpse="2968"/>
+
+<targetchange interval="8000" chance="0" />
+<strategy attack="100" defense="10" />
+
+<!--Flags-->
+
+<flags>
+    <flag summonable="1"/>        
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  
+   <script>
+<event name="cabum"/>
+</script>
+
+
+  <attacks>
+    <attack name="melee" interval="2000" skill="80" attack="75"/>
+       <attack name="auranormal" interval="2000" skill="80" attack="130"/>
+    
+  </attacks>
+
+
+
+  <defenses armor="30" defense="20">
+    <defense name="healing" interval="1000" chance="10" min="200" max="350">
+    </defense>
+
+
+  </defenses>
+  <elements>
+  <element firePercent="30"/>
+    <element physicalPercent="25"/>
+	<element holyPercent="25"/>
+	  <element deathPercent="-20"/>
+	    <element earthPercent="50"/>
+		  <element energyPercent="25"/>
+		    <element icePercent="15"/>
+			</elements>
+  <immunities>
+    <immunity paralyze="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="Fairyy!"/>
+
+  </voices>
+
+  <loot>
+
+		<item id="2284" chance="50" count="1" countmax="1"/>
+		<item id="2787"  count="3" countmax="1" chance="9800"/>
+		<item id="5914" count="2" countmax="1" chance="1000"/>
+		<item id="9460"  count="1" countmax="1" chance="4100"/>
+		<item id="11082" count="1" countmax="1" chance="50"/>
+
+  </loot>
+ <script>
+<event name="BlockHit6"></event>
+</script>
+
+</monster>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Groudon" nameDescription="a Groudon" race="ground" experience="163500" speed="280" manacost="0">
+  <health now="1950000" max="1950000"/>
+  <look type="774" head="0" body="0" legs="0" feet="0" corpse="9559"/>
+
+<targetchange interval="8000" chance="0" />
+<strategy attack="100" defense="10" />
+
+<!--Flags-->
+
+<flags>
+    <flag summonable="1"/>        
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  
+   <script>
+<event name="cabum"/>
+</script>
+
+<attacks>
+
+    <attack name="melee" interval="2000" skill="30" attack="1710"/>
+<attack name="auraterra2" interval="3000" chance="100" range="3" min="-86" max="-860"/>
+<attack name="auraterra3" interval="4000" chance="100" range="3" min="-86" max="-960"/>
+<attack name="auraterra4" interval="5000" chance="100" range="3" min="-86" max="-1530"/>
+</attacks>
+
+
+  <defenses armor="50" defense="60">
+    <defense name="healing" interval="3000" chance="100" min="500" max="20000">
+    </defense>
+    </defenses>
+    <elements>
+		<element firePercent="-90"/>
+		<element earthPercent="25"/>
+		<element physicalPercent="30"/>
+		<element icePercent="50"/>
+  </elements>
+  <immunities>
+  </immunities>
+  <voices interval="3000" chance="100">
+    <voice sentence="Groudon!!"/>
+  </voices>
+ <loot>
+
+        <item id="2159" chance="99000" count="2" countmax="20"/>
+  </loot>
+ <script>
+<event name="BlockHit6"></event>
+</script>
+</monster>

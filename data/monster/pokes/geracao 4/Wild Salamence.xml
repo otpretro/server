@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Salamence" nameDescription="a Salamence" race="dragon" experience="7800" speed="260">
+  <health now="22500" max="22500"/>
+  <look type="780" head="0" body="0" legs="0" feet="0" corpse="12877"/>
+
+<targetchange interval="5000" chance="5" />
+<strategy attack="100" defense="30" />
+
+<!--Flags-->
+
+<flags>
+    <flag summonable="1"/>        
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+    <attacks>
+    <attack name="melee" interval="2000" min="-150" max="-1040"/>
+  </attacks>
+
+  <voices interval="2000" chance="100">
+    <voice sentence="Salamence!"/>
+    <voice sentence="Salamence!"/>
+  </voices>
+
+<elements>
+	<element physicalPercent="50"/>
+        <element earthPercent="70"/>
+	<element energyPercent="70"/>
+	<element icePercent="-4"/>
+	<element deathPercent="70"/>
+	<element firePercent="-45"/>
+	<element holyPercent="-45"/>
+	<element poisonPercent="54"/>
+	<element drownPercent="70"/>
+</elements>
+  <defenses armor="100" defense="90">
+  </defenses>
+ <script>
+<event name="BlockHit6"></event>
+</script>
+
+</monster>

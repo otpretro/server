@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name= "Magcargo" nameDescription="a magcargo" race="undead" experience="82" speed="168" manacost="320">
+  <health now="4100" max="4100"/>
+  <look type="571" head="20" body="30" legs="40" feet="50" corpse="8813"/>
+	<targetchange interval="100" chance="0"/>
+  <strategy attack="100" defense="0"/>
+
+<flags>
+<flag summonable="1"/>
+<flag convinceable="1"/>
+<flag canpushitems="1"/>
+<flag canpushcreatures="1"/>
+<flag hostile="1"/>
+<flag attackable="1"/>
+<flag pushable="0"/>
+<flag staticattack="98"/>
+<flag targetdistance="1"/>
+<flag walkable="1"/>
+<flag runonhealth="1"/>
+<flag skull="3"/>
+</flags>
+
+    <attacks>
+    <attack name="melee" interval="1800" min="-10" max="-30"/>
+  </attacks>
+
+  <defenses armor="6" defense="10"/>
+  <voices interval="2000" chance="50">
+    <voice sentence="magcargo!"/>
+  </voices>
+ 
+</monster>

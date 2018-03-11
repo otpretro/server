@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mod name="First Items" version="3.0" author="The Forgotten Server" contact="alexyotserv.xyz" enabled="yes">
+
+	<config name="firstitems_config">
+<![CDATA[		config = {
+			storage = 30001,
+			items = {2120, 2550, 1987, 1988, 2376, 2580, 2564, 2529}
+			-- 7385 (pokeinfo)	ok
+			-- 2395 (portfoil)	ok
+			-- 2382	(pokedex)	ok
+			-- 2550 (order)		ok
+			-- 1987 (bag)		ok
+			-- 1988 (badge case)	ok
+			-- 2120 (rope)		ok
+			-- 2580 (fishing rod)	ok
+		}
+	]]>
+</config>
+	<event type="login" name="FirstItems" event="script">
+<![CDATA[
+
+		domodlib('firstitems_config')
+
+		function onLogin(cid)
+
+
+			if getCreatureName(cid) == "Account Manager" then
+				doSetCreatureOutfit(cid, {lookType = 655}, -1)
+			return true
+			end
+
+			if getPlayerSlotItem(cid, CONST_SLOT_ARMOR).itemid > 0 then
+			return true
+			end
+                          
+			for _, id in ipairs(config.items) do
+				doPlayerAddItem(cid, id, 1)
+			end
+
+			local bag = getPlayerItemById(cid, false, 1988).uid
+			doAddContainerItem(bag, 2307, 1)
+			doAddContainerItem(bag, 2308, 1)
+			doAddContainerItem(bag, 2309, 1)
+			doAddContainerItem(bag, 2310, 1)
+			doAddContainerItem(bag, 2311, 1)
+			doAddContainerItem(bag, 2312, 1)
+			doAddContainerItem(bag, 2313, 1)
+			doAddContainerItem(bag, 2314, 1)
+
+                        doAddContainerItem(bag, 11524, 1)
+                        doAddContainerItem(bag, 11525, 1)
+                        doAddContainerItem(bag, 11526, 1)
+                        doAddContainerItem(bag, 11527, 1)
+                        doAddContainerItem(bag, 11528, 1)
+                        doAddContainerItem(bag, 11529, 1)
+                        doAddContainerItem(bag, 11530, 1)
+                        doAddContainerItem(bag, 11531, 1)
+
+			return true
+		end
+
+	]]>
+</event>
+</mod>
+

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<monster name="Boss Gengar" nameDescription="a Boss Gengar" race="ghost" experience="30" speed="400" manacost="0">
+	
+<health now="35000" max="35000"/>
+	
+<look type="244" corpse="0"/>
+	
+<targetchange interval="8000" chance="0" />
+<strategy attack="100" defense="10" />
+
+<!--Flags-->
+
+<flags>
+    <flag summonable="1"/>        
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  
+
+
+	
+<attacks>
+		
+<attack name="melee" interval="1000" skill="25" attack="750"/>
+<attack name="aurafantasma4" interval="2000" chance="25" min="-200" max="-600"/> 
+<attack name="aurafantasma3" interval="3000" chance="25" min="-200" max="-600"/>
+<attack name="aurafantasma2" interval="4000" chance="25" min="-200" max="-700"/>
+<attack name="aurafantasma" interval="5000" chance="25" min="-200" max="-800"/>
+</attacks>
+
+	
+<defenses armor="15" defense="15">
+	
+</defenses>
+  <loot>
+		<item id="6569" chance="10000" count="5" countmax="1"/>
+		<item id="2136"  count="2" countmax="1" chance="5000"/>
+		<item id="2682" count="1" countmax="1" chance="1000"/>
+		<item id="11083"  count="1" countmax="1" chance="100"/>
+		<item id="2286" count="1" countmax="1" chance="50"/>
+
+  </loot>
+<script>
+<event name="tp"/>
+</script>
+ <script>
+<event name="BlockHit6"></event>
+</script>
+	
+</monster>

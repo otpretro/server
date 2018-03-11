@@ -1,0 +1,8 @@
+<npc name="Capitao Eduardo" script="data/npc/scripts/coruja.lua" walkinterval="0" skull="1">
+	<health now="150" max="150"/>
+	<look type="1240" head="114" body="119" legs="114" feet="114" corpse="2212"/>
+	<parameters>
+		<parameter key="message_greet" value="Ola |PLAYERNAME|. ! Eu posso te levar para {Haunter Village} ou {Gram Village} para onde deseja ir?" />
+		<parameter key="message_decline" value="Vai custar |TOTALCOST| Emeralds. Vai viajar? Voce pode ir em outras cidades indo ao meu primo!"/>
+	</parameters>
+</npc>

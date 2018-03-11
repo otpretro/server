@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spells>
+
+<instant name="Light" words="utevo lux" lvl="1" mana="0" aggressive="0" selftarget="1" exhaustion="1000" needlearn="0" event="script" value="suporte/light.lua">
+</instant>
+
+
+<instant name="transforme" words="Transformar" lvl="99999999" mana="0" prem="1" range="3" casterTargetOrDirection="1" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="attack/transforme gengar.lua">
+</instant>
+
+
+	<instant name="buscar personagem" words="procurar" lvl="10" mana="0" aggressive="0" params="1" prem="1" exhaustion="1000" needlearn="0" event="function" value="searchPlayer">
+	</instant>
+	<instant name="Haste" words="correr" lvl="5" mana="0" prem="0" aggressive="0" selftarget="1" exhaustion="1000"  event="script" value="suporte/correr.lua">
+	</instant>
+	<instant name="Haste Maximo" words="correr maximo" lvl="5" mana="0" prem="1" aggressive="0" selftarget="1" exhaustion="1000"  event="script" value="suporte/strong haste.lua">
+	</instant>
+
+	<instant name="auraeletrica" words="auraeletrica" lvl="100059999" mana="0" prem="1" range="1" casterTargetOrDirection="0" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="aura/auraeletrica.lua">
+	</instant>
+	<instant name="auraeletrica2" words="auraeletrica2" lvl="100059999" mana="0" prem="1" range="1" casterTargetOrDirection="0" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="aura/auraeletrica2.lua">
+	</instant>
+	<instant name="auraeletrica3" words="auraeletrica3" lvl="100059999" mana="0" prem="1" range="1" casterTargetOrDirection="0" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="aura/auraeletrica3.lua">
+	</instant>
+	<instant name="auraeletrica4" words="auraeletrica4" lvl="100059999" mana="0" prem="1" range="1" casterTargetOrDirection="0" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="aura/auraeletrica4.lua">
+	</instant>
+
+
+	<instant name="auraagua" words="auraagua" lvl="100059999" mana="0" prem="1" range="1" casterTargetOrDirection="0" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="aura/auraagua.lua">
+	</instant>
+	<instant name="auraagua2" words="auraagua2" lvl="100059999" mana="0" prem="1" range="1" casterTargetOrDirection="0" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="aura/auraagua2.lua">
+	</instant>
+	<instant name="auraagua3" words="auraagua3" lvl="100059999" mana="0" prem="1" range="1" casterTargetOrDirection="0" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="aura/auraagua3.lua">
+	</instant>
+	<instant name="auraagua4" words="auraagua4" lvl="100059999" mana="0" prem="1" range="1" casterTargetOrDirection="0" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="aura/auraagua4.lua">
+	</instant>
+
+
+	<instant name="aurafogo" words="aurafogo" lvl="100059999" mana="0" prem="1" range="1" casterTargetOrDirection="0" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="aura/aurafogo.lua">
+	</instant>
+	<instant name="aurafogo2" words="aurafogo2" lvl="100059999" mana="0" prem="1" range="1" casterTargetOrDirection="0" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="aura/aurafogo2.lua">
+	</instant>
+	<instant name="aurafogo3" words="aurafogo3" lvl="100059999" mana="0" prem="1" range="1" casterTargetOrDirection="0" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="aura/aurafogo3.lua">
+	</instant>
+        <instant name="aurafogo4" words="aurafogo4" lvl="100059999" mana="0" prem="1" range="1" casterTargetOrDirection="0" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="aura/aurafogo4.lua">
+	</instant>
+
+
+	<instant name="aurainseto" words="aurainseto" lvl="100059999" mana="0" prem="1" range="1" casterTargetOrDirection="0" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="aura/aurainseto.lua">
+	</instant>
+	<instant name="aurainseto2" words="aurainseto2" lvl="100059999" mana="0" prem="1" range="1" casterTargetOrDirection="0" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="aura/aurainseto2.lua">
+	</instant>
+	<instant name="aurainseto3" words="aurainseto3" lvl="100059999" mana="0" prem="1" range="1" casterTargetOrDirection="0" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="aura/aurainseto3.lua">
+	</instant>
+	<instant name="aurainseto4" words="aurainseto4" lvl="100059999" mana="0" prem="1" range="1" casterTargetOrDirection="0" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="aura/aurainseto4.lua">
+	</instant>
+
+
+
+	<instant name="aurapsiquica" words="aurapsiquica" lvl="100059999" mana="0" prem="1" range="7" casterTargetOrDirection="0" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="aura/aurapsiquica.lua">
+	</instant>
+	<instant name="aurapsiquica2" words="aurapsiquica2" lvl="100059999" mana="0" prem="1" range="7" casterTargetOrDirection="0" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="aura/aurapsiquica2.lua">
+	</instant>
+	<instant name="aurapsiquica3" words="aurapsiquica3" lvl="100059999" mana="0" prem="1" range="7" casterTargetOrDirection="0" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="aura/aurapsiquica3.lua">
+	</instant>
+	<instant name="aurapsiquica4" words="aurapsiquica4" lvl="100059999" mana="0" prem="1" range="7" casterTargetOrDirection="0" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="aura/aurapsiquica4.lua">
+	</instant>
+
+
+	<instant name="auraveneno" words="auraveneno" lvl="100059999" mana="0" prem="1" range="1" casterTargetOrDirection="0" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="aura/auraveneno.lua">
+	</instant>
+	<instant name="auraveneno2" words="auraveneno2" lvl="100059999" mana="0" prem="1" range="1" casterTargetOrDirection="0" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="aura/auraveneno2.lua">
+	</instant>
+	<instant name="auraveneno3" words="auraveneno3" lvl="100059999" mana="0" prem="1" range="1" casterTargetOrDirection="0" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="aura/auraveneno3.lua">
+	</instant>
+	<instant name="auraveneno4" words="auraveneno4" lvl="100059999" mana="0" prem="1" range="1" casterTargetOrDirection="0" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="aura/auraveneno4.lua">
+	</instant>
+
+
+	<instant name="auraplanta" words="auraplanta" lvl="100059999" mana="0" prem="1" range="1" casterTargetOrDirection="0" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="aura/auragrama.lua">
+	</instant>
+	<instant name="auraplanta2" words="auraplanta2" lvl="100059999" mana="0" prem="1" range="1" casterTargetOrDirection="0" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="aura/auragrama2.lua">
+	</instant>
+	<instant name="auraplanta3" words="auraplanta3" lvl="100059999" mana="0" prem="1" range="1" casterTargetOrDirection="0" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="aura/auragrama3.lua">
+	</instant>
+	<instant name="auraplanta4" words="auraplanta4" lvl="100059999" mana="0" prem="1" range="1" casterTargetOrDirection="0" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="aura/auragrama4.lua">
+	</instant>
+
+	<instant name="auranormal" words="auranormal" lvl="100059999" mana="0" prem="1" range="1" casterTargetOrDirection="0" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="aura/auranormal.lua">
+	</instant>
+	<instant name="auranormal2" words="auranormal2" lvl="100059999" mana="0" prem="1" range="1" casterTargetOrDirection="0" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="aura/auranormal2.lua">
+	</instant>
+	<instant name="auranormal3" words="auranormal3" lvl="100059999" mana="0" prem="1" range="1" casterTargetOrDirection="0" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="aura/auranormal3.lua">
+	</instant>
+	<instant name="auranormal4" words="auranormal4" lvl="100059999" mana="0" prem="1" range="1" casterTargetOrDirection="0" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="aura/auranormal4.lua">
+	</instant>
+
+	<instant name="auravoador" words="auravoador" lvl="100059999" mana="0" prem="1" range="1" casterTargetOrDirection="0" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="aura/auravoador.lua">
+	</instant>
+	<instant name="auravoador2" words="auravoador2" lvl="100059999" mana="0" prem="1" range="1" casterTargetOrDirection="0" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="aura/auravoador2.lua">
+	</instant>
+	<instant name="auravoador3" words="auravoador3" lvl="100059999" mana="0" prem="1" range="1" casterTargetOrDirection="0" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="aura/auravoador3.lua">
+	</instant>
+	<instant name="auravoador4" words="auravoador4" lvl="100059999" mana="0" prem="1" range="1" casterTargetOrDirection="0" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="aura/auravoador4.lua">
+	</instant>
+
+
+	<instant name="aurapedra" words="aurapedra" lvl="100059999" mana="0" prem="1" range="1" casterTargetOrDirection="0" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="aura/aurapedra.lua">
+	</instant>
+	<instant name="aurapedra2" words="aurapedra2" lvl="100059999" mana="0" prem="1" range="1" casterTargetOrDirection="0" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="aura/aurapedra2.lua">
+	</instant>
+	<instant name="aurapedra3" words="aurapedra3" lvl="100059999" mana="0" prem="1" range="1" casterTargetOrDirection="0" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="aura/aurapedra3.lua">
+	</instant>
+	<instant name="aurapedra4" words="aurapedra4" lvl="100059999" mana="0" prem="1" range="1" casterTargetOrDirection="0" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="aura/aurapedra4.lua">
+	</instant>
+
+
+	<instant name="auragelo" words="auragelo" lvl="100059999" mana="0" prem="1" range="1" casterTargetOrDirection="0" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="aura/auragelo.lua">
+	</instant>
+	<instant name="auragelo2" words="auragelo2" lvl="100059999" mana="0" prem="1" range="1" casterTargetOrDirection="0" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="aura/auragelo2.lua">
+	</instant>
+	<instant name="auragelo3" words="auragelo3" lvl="100059999" mana="0" prem="1" range="1" casterTargetOrDirection="0" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="aura/auragelo3.lua">
+	</instant>
+	<instant name="auragelo4" words="auragelo4" lvl="100059999" mana="0" prem="1" range="1" casterTargetOrDirection="0" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="aura/auragelo4.lua">
+	</instant>
+
+	<instant name="aurafantasma" words="aurafantasma" lvl="100059999" mana="0" prem="1" range="1" casterTargetOrDirection="0" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="aura/aurafantasma.lua">
+	</instant>
+	<instant name="aurafantasma2" words="aurafantasma2" lvl="100059999" mana="0" prem="1" range="1" casterTargetOrDirection="0" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="aura/aurafantasma2.lua">
+	</instant>
+	<instant name="aurafantasma3" words="aurafantasma3" lvl="100059999" mana="0" prem="1" range="1" casterTargetOrDirection="0" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="aura/aurafantasma3.lua">
+	</instant>
+	<instant name="aurafantasma4" words="aurafantasma4" lvl="100059999" mana="0" prem="1" range="1" casterTargetOrDirection="0" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="aura/aurafantasma4.lua">
+	</instant>
+
+	<instant name="auralutador" words="auralutador" lvl="100059999" mana="0" prem="1" range="1" casterTargetOrDirection="0" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="aura/auralutador.lua">
+	</instant>
+	<instant name="auralutador2" words="auralutador2" lvl="100059999" mana="0" prem="1" range="1" casterTargetOrDirection="0" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="aura/auralutador2.lua">
+	</instant>
+	<instant name="auralutador3" words="auralutador3" lvl="100059999" mana="0" prem="1" range="1" casterTargetOrDirection="0" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="aura/auralutador3.lua">
+	</instant>
+	<instant name="auralutador4" words="auralutador4" lvl="100059999" mana="0" prem="1" range="1" casterTargetOrDirection="0" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="aura/auralutador4.lua">
+	</instant>
+
+	<instant name="auraterra" words="auraterra" lvl="100059999" mana="0" prem="1" range="1" casterTargetOrDirection="0" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="aura/auraterra.lua">
+	</instant>
+	<instant name="auraterra2" words="auraterra2" lvl="100059999" mana="0" prem="1" range="1" casterTargetOrDirection="0" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="aura/auraterra2.lua">
+	</instant>
+	<instant name="auraterra3" words="auraterra3" lvl="100059999" mana="0" prem="1" range="1" casterTargetOrDirection="0" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="aura/auraterra3.lua">
+	</instant>
+	<instant name="auraterra4" words="auraterra4" lvl="100059999" mana="0" prem="1" range="1" casterTargetOrDirection="0" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="aura/auraterra4.lua">
+	</instant>
+
+
+	<instant name="invisibility" words="utanavid" lvl="100059999" mana="0" aggressive="0" selftarget="1" exhaustion="2000" needlearn="0" script="suporte/invisible.lua">
+	</instant>
+
+	<instant name="light" words="utanavid1" lvl="100059999" mana="0" aggressive="0" selftarget="1" exhaustion="1000" needlearn="0" script="suporte/light.lua">
+	</instant>
+	
+
+
+	<instant name="Death Strike" words="exori mort" lvl="100059999" mana="0" prem="0" needtarget="1" casterTargetOrDirection="1" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="attack/death strike.lua">
+	</instant>
+
+	<instant name="Flame Strike" words="exori flam" lvl="100059999" mana="0"  prem="0" needtarget="1" range="3" casterTargetOrDirection="1" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="attack/flame strike.lua">
+	</instant>
+
+	<instant name="Energy Strike" words="exori vis" lvl="100059999" mana="0"  prem="0" needtarget="1" range="3" casterTargetOrDirection="1" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="attack/energy strike.lua">
+	</instant>
+
+	<instant name="Whirlwind Throw" words="exori hur" lvl="100059999" mana="0"  prem="0" range="5" needtarget="1" blockwalls="1" needweapon="0" exhaustion="1000" needlearn="0" event="script" value="attack/whirlwind throw.lua">
+	</instant>
+
+	<instant name="Ethereal Spear" words="exori con" lvl="100059999" mana="0"  prem="0" range="5" needtarget="1" exhaustion="1000" blockwalls="1" needlearn="0" event="script" value="attack/ethereal spear.lua">
+	</instant>
+
+	<instant name="Ice Strike" words="exori frigo" lvl="100059999" mana="0" prem="0" needtarget="1"  range="3" casterTargetOrDirection="1" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="attack/ice strike.lua">
+	</instant>
+
+	<instant name="Wrath of Nature" words="exevo gran mas tera" lvl="100059999"  casterTargetOrDirection="1" needtarget="1" range="3" mana="0" prem="0" exhaustion="1000"  blockwalls="1" needlearn="0" event="script" value="attack/terra.lua">
+	</instant>
+
+	<instant name="Agua Strike" words="exori mort2" lvl="100059999" mana="0" prem="0" needtarget="1" casterTargetOrDirection="1" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="attack/Agua Strike.lua">
+	</instant>
+	<instant name="Gelo" words="exori mort3" lvl="100059999" mana="0" prem="0" casterTargetOrDirection="1" needtarget="1" blockwalls="1" exhaustion="1000" needlearn="0" event="script" value="attack/Gelo.lua">
+	</instant>
+	
+</spells>

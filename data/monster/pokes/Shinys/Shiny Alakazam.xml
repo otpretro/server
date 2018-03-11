@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Alakazam" nameDescription="a shiny alakazam" race="psychc" experience="0" speed="270" manacost="490">
+  <health now="8900" max="8900"/>
+  <look type="2008" head="20" body="30" legs="40" feet="50" corpse="11320"/>
+	<targetchange interval="8000" chance="0" />
+  <strategy attack="100" defense="0"/>
+
+<flags>
+    <flag summonable="1"/>        
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+  <attacks>
+    <attack name="melee" interval="2000" min="-100" max="-200"/>
+  </attacks>
+  
+  
+  <defenses armor="0" defense="0"/>
+  
+  <elements>
+	<element physicalPercent="70"/>
+    <element earthPercent="40"/>
+	<element energyPercent="90"/>
+	<element icePercent="-3"/>
+	<element deathPercent="60"/>
+	<element firePercent="80"/>
+	<element holyPercent="-5"/>
+	<element poisonPercent="70"/>
+	<element drownPercent="10"/>
+</elements>
+
+
+  <voices interval="5000" chance="10">
+    <voice sentence="ALAKA!"/>
+    <voice sentence="ZAAAM!"/>
+    <voice sentence="ALAKAZAM!"/>
+  </voices>
+</monster>

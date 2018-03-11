@@ -1,0 +1,77 @@
+Pokedex:
+
+---------Informações----------
+--Nome:  Milotic
+--Level Minimo Necessário: 130
+--Tipo: ( Water )
+
+-Habilidades Especiais:
+--Surf (Surfar, clique na beira do rio.)
+
+- Evolução
+-- Não Tem. 
+
+- Transdorma em Shiny
+-- Shiny Milotic - Level 8 - 7 Shiny Stone.
+
+-----------Ataques-----------
+- Move 1 [m1]:
+-- Ataque: Bubbles
+-- Nível minimo: 1
+-- Tipo do ataque: water
+--  CoolDown: 8 segundos
+
+- Move 2 [m2]:
+-- Ataque: Waterball
+-- Nível minimo: 105
+-- Tipo do ataque: water
+--  CoolDown: 4 segundos
+
+- Move 3 [m3]:
+-- Ataque: Bubble Beam
+-- Nível minimo: 105
+-- Tipo do ataque: water
+--  CoolDown: 8 segundos
+
+- Move 4 [m4]:
+-- Ataque: Dragon Breath
+-- Nível minimo: 105
+-- Tipo do ataque: dragon
+--  CoolDown: 6 segundos
+
+- Move 5 [m5]:
+-- Ataque: Hydro Cannon
+-- Nível minimo: 105
+-- Tipo do ataque: water
+--  CoolDown: 8 segundos
+
+- Move 6 [m6]:
+-- Ataque: Blizzard
+-- Nível minimo: 105
+-- Tipo do ataque: ice
+--  CoolDown: 8 segundos
+
+- Move 7 [m7]:
+-- Ataque: Hyper Beam
+-- Nível minimo: 105
+-- Tipo do ataque: normal
+--  CoolDown: 8 segundos
+
+- Move 8 [m8]:
+-- Ataque: Ancient Power
+-- Nível minimo: 105
+-- Tipo do ataque: rock
+--  CoolDown: 9 segundos
+
+- Move 9 [m9]:
+-- Ataque: Hydropump
+-- Nível minimo: 105
+-- Tipo do ataque: water
+--  CoolDown: 6 segundos
+
+- Move 10 [m10]:
+-- Ataque: Restore
+-- Nível minimo: 140
+-- Tipo do ataque: dragon
+--  CoolDown: 19 segundos
+

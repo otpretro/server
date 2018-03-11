@@ -1,0 +1,8 @@
+<npc name="Capitao Hoenn" script="data/npc/scripts/coruja3.lua" walkinterval="0" skull="1">
+	<health now="150" max="150"/>
+	<look type="1240" head="114" body="119" legs="114" feet="114" corpse="2212"/>
+	<parameters>
+		<parameter key="message_greet" value="Ola |PLAYERNAME|. ! Eu posso te levar de volta para o continente {Kanto} deseja ir? diga Kanto." />
+		<parameter key="message_decline" value="Vai custar |TOTALCOST| Emeralds. Vai volta para o continente kanto? yes or no."/>
+	</parameters>
+</npc>

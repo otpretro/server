@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Tangrowth" nameDescription="a Shiny Tangrowth" race="grass" experience="0" speed="144" manacost="450">
+  <health now="19500" max="19500"/>
+  <look type="1812" head="20" body="30" legs="40" feet="50" corpse="10854"/>
+	<targetchange interval="8000" chance="0" />
+  <strategy attack="100" defense="30"/>
+
+<flags>
+    <flag summonable="1"/>        
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+     <attacks>
+    <attack name="melee" interval="1800" min="-10" max="-250"/>
+  </attacks>
+
+<elements>
+	<element physicalPercent="70"/>
+        <element earthPercent="70"/>
+	<element energyPercent="60"/>
+	<element icePercent="-5"/>
+	<element deathPercent="20"/>
+	<element firePercent="-5"/>
+	<element holyPercent="60"/>
+	<element poisonPercent="-5"/>
+	<element drownPercent="60"/>
+</elements>
+
+
+  <defenses armor="8" defense="17">
+  </defenses>
+
+</monster>

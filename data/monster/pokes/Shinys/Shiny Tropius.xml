@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Tropius" nameDescription="a Shiny Tropius" race="grass" experience="0" speed="260" manacost="280">
+  <health now="18000" max="18000"/>
+  <look type="1813" head="20" body="30" legs="40" feet="50" corpse="10851"/>
+	<targetchange interval="8000" chance="0" />
+  <strategy attack="100" defense="0"/>
+
+  
+  <flags>
+    <flag summonable="1"/>        
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  
+  <attacks>
+    <attack name="melee" interval="2000" skill="25" attack="70"/>
+  </attacks>
+
+
+<elements>
+	<element physicalPercent="70"/>
+        <element earthPercent="80"/>
+	<element energyPercent="50"/>
+	<element icePercent="-1"/>
+	<element deathPercent="60"/>
+	<element firePercent="-15"/>
+	<element holyPercent="-1"/>
+	<element poisonPercent="-3"/>
+	<element drownPercent="90"/>
+</elements>
+
+  <defenses armor="4" defense="8"/>
+  <voices interval="2000" chance="70">
+    <voice sentence="Tropius"/>
+  </voices>
+</monster>

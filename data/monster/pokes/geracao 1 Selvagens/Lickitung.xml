@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="Lickitung" nameDescription="a Lickitung" race="normal" experience="5350" species="ice" speed="390" manacost="0">
+    <health now="15800" max="15800"/>
+    <look type="11" corpse="2953"/>
+
+<targetchange interval="8000" chance="0" />
+<strategy attack="100" defense="10" />
+
+<!--Flags-->
+
+<flags>
+    <flag summonable="1"/>        
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  
+   <script>
+<event name="cabum"/>
+</script>
+
+<attacks>
+    <attack name="melee" interval="2000" skill="75" attack="65"/>
+ <attack name="auranormal4" interval="4900" chance="100" range="3" min="-91" max="-151"/>
+
+
+</attacks>
+
+
+    <defenses armor="30" defense="30">
+  </defenses>
+
+<elements>
+		<element physicalPercent="50"/>
+		<element energyPercent="-15"/>
+		<element earthPercent="100"/>
+		<element icePercent="100"/>
+		<element holyPercent="30"/>
+		<element deathPercent="60"/>
+</elements>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="1"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="1"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+<loot>
+
+		<item id="2789"  count="1" countmax="1" chance="10000"/>
+		<item id="5877" count="1" countmax="1" chance="1000"/>
+		<item id="5888"  count="1" countmax="1" chance="3400"/>
+		<item id="2289" count="1" countmax="1" chance="50"/>
+		<item id="2289"  count="1" countmax="1" chance="100"/>
+		<item id="2689"  count="2" countmax="1" chance="150"/>
+		<item id="11266"  count="1" countmax="1" chance="2000"/>
+		<item id="5876"  count="1" countmax="1" chance="7000"/>
+</loot>
+ <script>
+<event name="BlockHit6"></event>
+</script>
+  </monster>

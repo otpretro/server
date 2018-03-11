@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Elder Charizard" nameDescription="a Elder Charizard" race="fire" experience="0" speed="270">
+  <health now="9800" max="9800"/>
+  <look type="2012" head="20" body="30" legs="40" feet="50" corpse="2954"/>
+  <targetchange interval="8000" chance="0" />
+  <strategy attack="100" defense="50"/>
+
+<flags>
+    <flag summonable="1"/>        
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+  <attacks>
+    <attack name="melee" interval="2000" min="-20" max="-400"/>
+  </attacks>
+
+<elements>
+	<element physicalPercent="50"/>
+        <element earthPercent="80"/>
+	<element energyPercent="35"/>
+	<element icePercent="20"/>
+	<element deathPercent="10"/>
+	<element firePercent="95"/>
+	<element holyPercent="-8"/>
+	<element poisonPercent="-10"/>
+	<element drownPercent="-50"/>
+</elements>
+
+  <defenses armor="70" defense="50"/>
+	<voices interval="5000" chance="10">
+		<voice sentence="CHARIZARD"/>
+		<voice sentence="ZAAARD"/>
+		<voice sentence="CHARII"/>
+	</voices>
+
+</monster>

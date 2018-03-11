@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Onix" nameDescription="a Onix" race="rock" experience="5323" speed="260" manacost="390">
+	<health now="15300" max="15300"/>
+	<look type="248" head="0" body="0" legs="0" feet="0" corpse="2990"/>
+
+<targetchange interval="8000" chance="0" />
+<strategy attack="100" defense="10" />
+
+<!--Flags-->
+
+<flags>
+    <flag summonable="1"/>        
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  
+   <script>
+<event name="cabum"/>
+</script>
+
+	<attacks>
+		<attack name="melee" interval="2000" skill="75" attack="300"/>
+              <attack name="auraterra4" interval="2400" chance="100" range="3" min="-91" max="-451"/>
+	</attacks>
+
+
+  <defenses armor="45" defense="45">
+	</defenses>
+	<voices interval="3000" chance="200">
+		<voice sentence="Oniix"/>
+		<voice sentence="iiix"/>
+	</voices>
+
+  <loot>
+		<item id="11079" chance="50" count="1" countmax="1"/>
+		<item id="2136"  count="2" countmax="1" chance="7800"/>
+		<item id="6125" count="2" countmax="1" chance="1000"/>
+		<item id="5896"  count="5" countmax="1" chance="4100"/>
+		<item id="5896" count="1" countmax="1" chance="5000"/>
+		<item id="11266"  count="3" countmax="1" chance="110"/>
+		<item id="5899"  count="2" countmax="1" chance="150"/>
+		<item id="2280"  count="1" countmax="1" chance="50"/>
+                <item id="2678"  count="1" countmax="1" chance="400"/>
+                <item id="2280"  count="1" countmax="1" chance="50"/>
+
+  </loot>
+ <script>
+<event name="BlockHit6"></event>
+</script>
+ </monster>

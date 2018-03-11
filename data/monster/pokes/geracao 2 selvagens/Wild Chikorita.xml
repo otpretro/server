@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+ <monster name="Chikorita" nameDescription="a Chikorita" race="undead" experience="345" speed="140" manacost="300">
+  <health now="9520" max="9520" /> 
+  <look type="539" head="0" body="0" legs="0" feet="0" corpse="8782" /> 
+
+<targetchange interval="5000" chance="8" />
+<strategy attack="100" defense="10" />
+
+<!--Flags-->
+
+<flags>
+    <flag summonable="1"/>        
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+
+
+  <attacks>
+    <attack name="melee" interval="2000" skill="25" attack="140"/>
+    <attack name="auraplanta2" interval="2000" chance="5" min="-100" max="-350"> </attack>
+
+  </attacks>
+
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Chikorita!"/>
+    <voice sentence="ritaaa!"/>
+  </voices>
+
+  <loot>
+
+		<item id="5954" chance="10000" count="5" countmax="1"/>
+		<item id="2111"  count="2" countmax="1" chance="5000"/>
+		<item id="5883" count="1" countmax="1" chance="1000"/>
+		<item id="6549"  count="1" countmax="1" chance="100"/>
+		<item id="2276" count="1" countmax="1" chance="50"/>
+		<item id="11079"  count="1" countmax="1" chance="110"/>
+		<item id="5914"  count="2" countmax="1" chance="3000"/>
+		<item id="11095"  count="1" countmax="1" chance="2000"/>
+		<item id="5887"  count="1" countmax="1" chance="7000"/>
+		<item id="9460"  count="2" countmax="1" chance="3000"/>
+		<item id="6544"  count="10" countmax="1" chance="4000"/>
+		<item id="9462" count="1" countmax="1" chance="3000"/>
+
+  </loot>
+ <script>
+<event name="BlockHit6"></event>
+</script>
+</monster>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npc name="Carlos" script="data/npc/scripts/pokemon seller.lua" walkinterval="0" skull="1">
+
+	<health now="150" max="150"/>
+
+	<look type="263" head="115" body="128" legs="106" feet="132"/>
+
+	<parameters>
+
+			<parameter key="message_greet" value="Ola! aventureiro eu compro pokemon Gostaria de me vender algum ?basta me dizer o nome"/>
+
+			<parameter key="message_farewell" value="We love mountains!"/>
+
+			<parameter key="message_idletimeout" value="We love mountains!"/>
+
+			<parameter key="message_walkaway" value="We love mountains!"/>
+
+	</parameters>
+
+</npc>

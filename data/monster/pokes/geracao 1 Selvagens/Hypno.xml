@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Hypno" nameDescription="a Hypno" race="psychc" experience="3500" speed="260" manacost="350">
+  <health now="12600" max="12600"/>
+  <look type="119" head="20" body="30" legs="40" feet="50" corpse="6046"/>
+
+<targetchange interval="8000" chance="0" />
+<strategy attack="100" defense="10" />
+
+<!--Flags-->
+
+<flags>
+    <flag summonable="1"/>        
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  
+   <script>
+<event name="cabum"/>
+</script>
+
+  <attacks>
+    <attack name="melee" interval="2000" skill="21" attack="190"/>
+    <attack name="aurapsiquica2" interval="8200" chance="100" min="-100" max="-200"/>
+
+  </attacks>
+
+  <defenses armor="13" defense="5"/>
+  	<elements>
+	    <element physicalPercent="5"/>
+		<element energyPercent="-5"/>
+		<element earthPercent="20"/>
+		<element icePercent="10"/>
+		<element firePercent="-10"/>
+	</elements>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="0"/>
+  </immunities>
+
+ <loot>
+
+        <item id="5882" chance="9000" count="5" countmax="1"/>
+        <item id="5902" chance="7000" count="1" countmax="1"/>
+        <item id="5920" chance="3000" count="1" countmax="1"/>
+        <item id="2288" chance="50" count="1" countmax="1"/>
+        <item id="11074" chance="100" count="1" countmax="1"/>
+        <item id="8204" chance="100" count="1" countmax="1"/>
+	<item id="8869" countmax="1" chance="85500"/> -- future orb
+	<item id="8870" countmax="1" chance="20000"/> -- psy spoon
+  </loot>
+ <script>
+<event name="BlockHit6"></event>
+</script>
+</monster>

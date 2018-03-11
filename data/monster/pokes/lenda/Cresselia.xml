@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Cresselia" nameDescription="a Cresselia" race="psychc" experience="163500" speed="300" manacost="0">
+  <health now="1850000" max="1850000"/>
+  <look type="965" head="20" body="30" legs="40" feet="50" corpse="9632"/>
+
+<targetchange interval="8000" chance="0" />
+<strategy attack="100" defense="10" />
+
+<!--Flags-->
+
+<flags>
+    <flag summonable="1"/>        
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  
+   <script>
+<event name="cabum"/>
+</script>
+
+<attacks>
+  <attack name="melee" interval="2000" skill="20" attack="750"/>
+<attack name="aurapsiquica" interval="2000" chance="100" range="3" min="-86" max="-655"/>
+<attack name="aurapsiquica2" interval="4000" chance="100" range="3" min="-86" max="-655"/>
+<attack name="aurapsiquica3" interval="5000" chance="100" range="3" min="-86" max="-866"/>
+<attack name="aurapsiquica4" interval="5000" chance="100" range="3" min="-86" max="-977"/>
+
+</attacks>
+
+  <defenses armor="15" defense="15">
+    <defense name="healing" interval="7000" chance="100" min="1000" max="4000">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+    </defenses>
+
+  <immunities>
+    <immunity invisible="1"/>
+  </immunities>
+
+  <voices interval="2000" chance="100">
+    <voice sentence="Cresseliaaaaaa!"/>
+    <voice sentence="Muhahahaha!"/>
+    <voice sentence="Cresseliaaaaaa!"/>
+    <voice sentence="Liaaaaaa!"/>
+    <voice sentence="Cresseliaaa!"/>
+  </voices>
+
+ <loot>
+
+        <item id="2159" chance="99000" count="1" countmax="1"/>
+        <item id="2318" chance="99000" count="1" countmax="1"/>
+        <item id="2319" chance="99000" count="1" countmax="1"/>
+        <item id="2159" chance="99000" count="1" countmax="1"/>
+        <item id="2134" chance="99000" count="1" countmax="1"/>
+  </loot>
+ <script>
+<event name="BlockHit6"></event>
+</script>
+</monster>

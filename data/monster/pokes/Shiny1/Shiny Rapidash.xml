@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<monster name="Shiny Rapidash" namedescription="a Shiny Rapidash" race="fire" experience="0" speed="255">
+  <health now="5500" max="5500"/>
+  <look type="1809" head="20" body="30" legs="40" feet="50" corpse="4323"/>
+
+<targetchange interval="8000" chance="0" />
+<strategy attack="100" defense="80" />
+
+<!--Flags-->
+
+<flags>
+    <flag summonable="1"/>        
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+    <attacks>
+    <attack name="melee" interval="1800" min="-10" max="-40"/>
+  </attacks>
+
+  <defenses armor="6" defense="6"/>
+
+  <voices interval="2000" chance="100">
+    <voice sentence="Rapidash"/>
+  </voices>
+
+</monster>

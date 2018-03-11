@@ -1,0 +1,21 @@
+Name: Chikorita
+Type: grass
+Required level: 1
+
+Evolutions:
+Bayleef, requires level 30
+Meganium, requires level 60
+
+Moves: 
+Quick Attack - m1 - level 2 - normal
+Razor Leaf - m2 - level 9 - grass
+Vine Whip - m3 - level 11 - grass
+Headbutt - m4 - level 15 - normal
+Leech Seed - m5 - level 18 - grass
+Solar Beam - m6 - level 26 - grass
+Sleep Powder - m7 - level 31 - grass
+Stun Spore - m8 - level 35 - grass
+Poison Powder - m9 - level 40 - poison
+
+Ability:
+Cut

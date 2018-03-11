@@ -1,0 +1,59 @@
+Pokedex:
+
+---------Informações----------
+--Nome: Steelix
+--Level Minimo Necessário: 100
+--Tipo: ( Steel )( Ground )
+
+-Habilidades Especiais:
+--Rock Smash
+--Dig (Abre Buracos)
+
+- Evolução
+-- Não Tem.
+
+-----------Ataques-----------
+- Move 1 [m1]:
+-- Ataque: Sand Attack
+-- Nível minimo: 1
+-- CoolDown: 5 segundos
+
+- Move 2 [m2]:
+-- Ataque: Iron Tail
+-- Nível minimo: 90
+-- CoolDown: 6 segundos
+
+- Move 3 [m3]:
+-- Ataque: Rock Throw
+-- Nível minimo: 90
+-- CoolDown: 6 segundos 
+
+- Move 4 [m4]:
+-- Ataque: Rock Slide
+-- Nível minimo: 90
+-- CoolDown: 10 segundos
+
+- Move 5 [m5]:
+-- Ataque: Earthshock
+-- Nível minimo: 130
+-- CoolDown: 9 segundos
+
+- Move 6 [m6]:
+-- Ataque: Falling Rocks
+-- Nível minimo: 130
+-- CoolDown: 6 segundos
+
+- Move 7 [m7]:
+-- Ataque: Hyper Beam
+-- Nível minimo: 130
+-- CoolDown: 8 segundos
+
+- Move 8 [m8]:
+-- Ataque: Earthquake
+-- Nível minimo: 130
+-- CoolDown: 9 segundos
+
+- Move 9 [m9]:
+-- Ataque: Restore
+-- Nível minimo: 130
+-- CoolDown: 15 segundos

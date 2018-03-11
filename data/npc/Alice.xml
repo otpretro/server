@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Alice" script="data/npc/scripts/tesouro1.lua" walkinterval="0" skull="1">
+
+
+    <health now="100" max="100"/>
+	<look type="920"/>
+	<parameters>
+		<parameter key="message_greet" value="Ola |PLAYERNAME| como sou uma pessoa medrosa em contar meus segredos, eu tenho uma senha para que eu possa te dar as informacoes que precisa, vou te mandar uma dica da palavra e voce tenta advinhar. Quando uma pessoa guarda fofocas que nao  pode contar pra ninguem ? se chama ?"/>
+
+    </parameters>
+</npc>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Boss Machamp" nameDescription="a Boss Machamp" race="fight" experience="50" speed="240" manacost="0">
+  <health now="45000" max="45000"/>
+  <look type="1937" head="20" body="30" legs="40" feet="50" corpse="0"/>
+
+<targetchange interval="8000" chance="0" />
+<strategy attack="100" defense="10" />
+
+<!--Flags-->
+
+<flags>
+    <flag summonable="1"/>        
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  
+
+
+  <attacks>
+    <attack name="melee" interval="1000" skill="40" attack="490"/>
+<attack name="auraterra2" interval="2300" chance="100" range="3" min="-91" max="-751"/>
+
+  </attacks>
+
+
+	<defenses armor="15" defense="22">
+  </defenses>
+
+    <elements>
+		<element energyPercent="100"/>
+		<element earthPercent="-100"/>
+		<element firePercent="50"/>
+	</elements>
+
+
+  <voices interval="2000" chance="100">
+    <voice sentence="Machaaamp"/>
+    <voice sentence="Machoo"/>
+  </voices>
+  <loot>
+		<item id="5898" chance="160" count="1" countmax="1"/>
+		<item id="9464"  count="1" countmax="1" chance="50"/>
+		<item id="11078" count="2" countmax="1" chance="150"/>
+		<item id="2281"  count="1" countmax="1" chance="50"/>
+		<item id="5877" count="2" countmax="1" chance="5000"/>
+		<item id="2691"  count="4" countmax="1" chance="1100"/>
+
+  </loot>
+<script>
+<event name="tp"/>
+</script>
+ <script>
+<event name="BlockHit6"></event>
+</script>
+</monster>

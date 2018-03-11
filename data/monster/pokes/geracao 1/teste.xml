@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Teste" nameDescription="a Regice" race="ice" experience="122900" speed="300" manacost="0">
+  <health now="1990000" max="1990000"/>
+  <look type="2526" head="0" body="0" legs="0" feet="0" corpse="9308"/>
+
+<targetchange interval="8000" chance="50" />
+<strategy attack="100" defense="80" />
+
+<!--Flags-->
+
+<flags>
+    <flag summonable="1"/>        
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  
+   <script>
+<event name="cabum"/>
+</script>
+
+<attacks>
+
+</attacks>
+
+
+  <defenses armor="50" defense="90">
+    <defense name="healing" interval="15000" chance="100" min="500" max="13000">
+    </defense>
+    </defenses>
+    <elements>
+		<element firePercent="-5"/>
+		<element earthPercent="20"/>
+		<element physicalPercent="40"/>
+		<element icePercent="100"/>
+  </elements>
+  <immunities>
+  </immunities>
+  <voices interval="5000" chance="100">
+    <voice sentence="Regiceeee!!"/>
+  </voices>
+ <loot>
+
+        <item id="2159" chance="1000000" count="1" countmax="3"/>
+        <item id="2318" chance="70000" count="1" countmax="3"/>
+        <item id="2319" chance="60000" count="1" countmax="3"/>
+  </loot>
+ <script>
+<event name="BlockHit6"></event>
+</script>
+</monster>

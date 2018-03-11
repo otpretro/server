@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Eevee" nameDescription="a Eevee" race="normal" experience="750" speed="370" manacost="0">
+  <health now="8500" max="8500"/>
+  <look type="102" corpse="6364"/>
+	
+<targetchange interval="8000" chance="0" />
+<strategy attack="100" defense="10" />
+
+<!--Flags-->
+
+<flags>
+    <flag summonable="1"/>        
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  
+   <script>
+<event name="cabum"/>
+</script>
+
+  <attacks>
+    <attack name="melee" interval="2000" attack="15" skill="15"/>
+    <attack name="aurafogo3" interval="3500" chance="100" min="-100" max="-250">
+    </attack>
+  </attacks>
+  <defenses armor="10" defense="10"/>
+
+ <loot>
+        <item id="12701" chance="4200" count="1" countmax="1"/>
+		<item id="5893" chance="10000" count="2" countmax="1"/>
+		<item id="2667"  count="5" countmax="1" chance="500"/>
+		<item id="8204" count="2" countmax="1" chance="200"/>
+		<item id="11081"  count="1" countmax="1" chance="100"/>
+		<item id="2279" count="1" countmax="1" chance="50"/>
+		<item id="11190"  count="2" countmax="1" chance="150"/>
+
+  </loot>
+ <script>
+<event name="BlockHit6"></event>
+</script>
+</monster>
+

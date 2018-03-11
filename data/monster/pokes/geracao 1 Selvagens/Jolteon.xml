@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<monster name="Jolteon" namedescription="a Jolteon" race="electr" experience="3119" speed="240" manacost="0">
+  <health now="15500" max="15500"/>
+  <look type="195" head="20" body="30" legs="40" feet="50" corpse="6044"/>
+
+<targetchange interval="8000" chance="0" />
+<strategy attack="100" defense="10" />
+
+<!--Flags-->
+
+<flags>
+    <flag summonable="1"/>        
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  
+   <script>
+<event name="cabum"/>
+</script>
+
+  <attacks>
+
+    <attack name="melee" interval="2000" skill="20" attack="60"/>
+    
+
+
+  </attacks>
+  <defenses armor="3" defense="15"/>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="1"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="0"/>
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="Jolteooon!"/>
+
+  </voices>
+  <loot>
+        <item id="12701" chance="4200" count="1" countmax="1"/>
+		<item id="5893" chance="10000" count="2" countmax="1"/>
+		<item id="2667"  count="5" countmax="1" chance="500"/>
+		<item id="8204" count="2" countmax="1" chance="200"/>
+		<item id="11081"  count="1" countmax="1" chance="100"/>
+		<item id="2279" count="1" countmax="1" chance="50"/>
+		<item id="11190"  count="2" countmax="1" chance="150"/>
+
+  </loot>
+ <script>
+<event name="BlockHit6"></event>
+</script>
+</monster>

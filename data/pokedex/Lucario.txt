@@ -1,0 +1,72 @@
+Pokedex:
+
+---------Informações----------
+--Nome: Lucario
+--Nível mínimo necessário: 150
+--Tipo: (Fighting) (Steel)
+
+-Habilidades Especiais
+--Rock Smash (Quebra Pedras, use o order na pedra).
+
+-Habilidades Especiais
+--Dig (Abre Buracos, use o order no buraco fechado).
+
+-Evolução
+--Não tem.
+-----------Ataques-----------
+-Move 1 [m1]:
+--Ataque: Rock Throw
+--Nível mínimo: 30
+--Tipo: ground
+--Cooldown: 7 segundos
+
+-Move 2 [m2]:
+--Ataque: Mega Punch
+--Nível mínimo: 30
+--Tipo: Steel
+--Cooldown: 7 segundos
+
+-Move 3 [m3]:
+--Ataque: Mega Kick
+--Nível mínimo: 30
+--Tipo: Fighting
+--Cooldown: 9 segundos
+
+-Move 4 [m4]:
+--Ataque: Ice Punch
+--Nível mínimo: 40
+--Tipo: ice
+--Cooldown: 8 segundos
+
+-Move 5 [m5]:
+--Ataque: Thunder Punch
+--Nível mínimo: 50
+--Tipo: electric
+--Cooldown: 9 segundos
+
+-Move 6 [m6]:
+--Ataque: Shadow Punch
+--Nível mínimo: 125
+--Tipo: glost
+--Cooldown: 8 segundos
+
+-Move 7 [m7]:
+--Ataque: Windstorm
+--Nível mínimo: 135
+--Tipo: ground
+--Cooldown: 7 segundos
+
+-Move 8 [m8]:
+--Ataque: Earthquake
+--Nível mínimo: 145
+--Tipo: ground
+--Cooldown: 7 segundos
+
+-Move 9 [m9]:
+--Ataque: Restore
+--Nível mínimo: 155
+--Tipo: Fairy
+--Cooldown: 20 segundos
+
+--info
+It uses the shapes of auras, which change according to emotion, to communicate with others.

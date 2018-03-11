@@ -1,0 +1,311 @@
+----- 01/04/2017 13:52:49 - Mariale (201.248.23.101) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Ultimate Edition 32 Bit in VEN
+Processor: Intel Celeron 847 @ 1.1
+Video Card: Intel (R) HD GR
+Player.cpp 361: exception occurred, reason:
+Network.cpp 992: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1330: exception occurred (Type = -1) (MainWindow = 27940032), reason:
+Network.cpp 491: exception occurred, reason:
+Network.cpp 478: exception occurred, reason:
+Network.cpp 447: checksum is not correct
+Sat Apr 01 12:47:13 2017
+Debug Assertion 8.54 Network.cpp 447
+
+----- 03/04/2017 09:20:30 - Redbull Revolthz (138.0.32.13) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows Vista Family in BRA
+Processor: Dual Core Intel Pentium E5300 @ 2
+Video Card: NVIDIA GeForce 210
+Last Packet Types: 106 180 180 170 160 160 120 160 120 160
+Last Packet: 106 027 004 026 004 007 001 097 000 000 000 000 000 073 058 000
+Player Position: [1052,1050,7]
+Player Name: Sarmelo (Poke X White)
+Player Action: 049 050 055 046 048 046 048 046 049 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 992: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1330: exception occurred (Type = 106) (MainWindow = 29457424), reason:
+Communication.cpp 1743: exception occurred (rx = 7) (ry = 6), reason:
+Communication.cpp 1550: exception occurred (Type = 97) (CreatureID = 1073756745), reason:
+Objects.cpp 604: exception occurred (Number = 1893), reason:
+Container.h 226: index out of range (original i: 1893, i: 1892, min: 1, d: 1884)
+Fri Mar 31 20:18:30 2017
+Debug Assertion 8.54 Container.h 226
+
+----- 03/04/2017 12:56:13 - Periquitosvalda (179.106.181.1) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Ultimate Edition 32 Bit in BRA
+Processor: Dual Core Intel Pentium E5800 @ 3
+Video Card: Intel (R) G41 E
+Player.cpp 344: exception occurred, reason:
+Network.cpp 855: exception occurred, reason:
+Control.cpp 1525: exception occurred (Type = -1) (MainWindow = 02E7BD38), reason:
+Network.cpp 282: exception occurred, reason:
+Network.cpp 269: exception occurred, reason:
+Network.cpp 238: checksum is not correct
+Mon Apr 03 12:41:47 2017
+Debug Assertion 10.99 Network.cpp 238
+
+----- 04/04/2017 00:40:55 - Shiny Kyurem (201.95.99.71) -----
+
+Graphic Engine: DirectX9 (2)
+Operating System: Windows Vista Family in BRA
+Processor: Intel CORE I3 5
+Video Card: Intel (R) HD GR
+Last Packet Types: 106 109 109 106 108 131 131 109 107 107
+Last Packet: 106 008 004 005 004 007 002 097 000 000 000 000 000 221 199 000
+Player Position: [1039,1030,6]
+Player Name: Pedrin Queimado (Pink)
+Player Action: 049 053 056 046 054 057 046 049 050 051 046 049 049 053 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 992: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1330: exception occurred (Type = 106) (MainWindow = 43874992), reason:
+Communication.cpp 1743: exception occurred (rx = 2) (ry = 6), reason:
+Communication.cpp 1550: exception occurred (Type = 97) (CreatureID = 1073792989), reason:
+Objects.cpp 604: exception occurred (Number = 2209), reason:
+Container.h 226: index out of range (original i: 2209, i: 2208, min: 1, d: 2200)
+Fri Mar 31 18:37:28 2017
+Debug Assertion 8.54 Container.h 226
+
+----- 04/04/2017 03:20:54 - Revoltado (186.251.104.151) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows XP Professional in BRA
+Processor: Intel Celeron E3200 @ 2
+Video Card: Intel (R) G41 E
+Last Packet Types: 100 010 031 100 020 000 000 000 000 000
+Last Packet: 010 006 043 000 016 050 000 000 100 026 004 030 004 007 227 004
+Player Name: Rei Delas (Ouro)
+Player Action: 049 055 055 046 055 049 046 049 057 054 046 049 056 051 058 054 053 055 056
+Player.cpp 361: exception occurred, reason:
+Network.cpp 992: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1330: exception occurred (Type = 100) (MainWindow = 162248464), reason:
+Communication.cpp 1640: exception occurred (PlayerX = 1050) (PlayerY = 1054), reason:
+Communication.cpp 1618: exception occurred (xmin = 0) (ymin = 0), reason:
+Communication.cpp 1597: exception occurred (Type = 13393) (OldType = 1215), reason:
+Objects.cpp 280: exception occurred (Type = 13393) (Flag = 11), reason:
+Objects.cpp 277: assertion failed (Type = 13393) (ObjectProperties->high() = 13061), reason:
+In(Type,ObjectProperties->low(),ObjectProperties->high())
+Tue Apr 04 03:20:44 2017
+Debug Assertion 8.54 Objects.cpp 277
+
+----- 04/04/2017 04:03:51 - Revoltado (186.251.104.151) -----
+
+Graphic Engine: DirectX9 (2)
+Operating System: Windows XP Professional in BRA
+Processor: Intel Celeron E3200 @ 2
+Video Card: Intel (R) G41 E
+Last Packet Types: 103 109 107 102 109 102 109 102 109 102
+Last Packet: 109 008 004 018 004 007 001 008 004 019 004 007 103 166 017 073
+Player Position: [1032,1043,7]
+Player Name: Revoltado (Ouro)
+Player Action: 049 055 055 046 055 049 046 049 057 054 046 049 056 051 058 054 053 055 056
+Player.cpp 361: exception occurred, reason:
+Network.cpp 992: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1330: exception occurred (Type = 103) (MainWindow = 162250120), reason:
+Communication.cpp 1679: exception occurred, reason:
+Communication.cpp 1618: exception occurred (xmin = 0) (ymin = 13), reason:
+Communication.cpp 1597: exception occurred (Type = 13488) (OldType = 11765), reason:
+Objects.cpp 280: exception occurred (Type = 13488) (Flag = 11), reason:
+Objects.cpp 277: assertion failed (Type = 13488) (ObjectProperties->high() = 13061), reason:
+In(Type,ObjectProperties->low(),ObjectProperties->high())
+Tue Apr 04 03:21:38 2017
+Debug Assertion 8.54 Objects.cpp 277
+
+----- 04/04/2017 11:59:33 - Malic (191.193.148.165) -----
+
+Graphic Engine: DirectX9 (2)
+Operating System: Windows Vista Home Premium Edition 32 Bit in BRA
+Processor: Intel Pentium DUAL T340
+Video Card: Mobile Intel (R) 4 SER
+Last Packet Types: 100 010 031 100 020 000 000 000 000 000
+Last Packet: 010 071 182 000 016 050 000 000 100 029 004 026 004 007 248 041
+Player Position: [1053,1050,7]
+Player Name: Malic (Offline)
+Player Action: 052 053 046 051 053 046 049 053 052 046 049 055 056 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 992: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1330: exception occurred (Type = 100) (MainWindow = 10321648), reason:
+Communication.cpp 1640: exception occurred (PlayerX = 1053) (PlayerY = 1050), reason:
+Communication.cpp 1618: exception occurred (xmin = 0) (ymin = 0), reason:
+Communication.cpp 1597: exception occurred (Type = 14187) (OldType = 565), reason:
+Objects.cpp 280: exception occurred (Type = 14187) (Flag = 11), reason:
+Objects.cpp 277: assertion failed (Type = 14187) (ObjectProperties->high() = 13869), reason:
+In(Type,ObjectProperties->low(),ObjectProperties->high())
+Wed Mar 15 16:44:11 2017
+Debug Assertion 8.54 Objects.cpp 277
+
+----- 05/04/2017 16:59:10 - Pica Pau Cyclonado (23.27.14.87) -----
+Comment: 
+Graphic Engine: DirectX5 (0)
+Operating System: Windows 7 Ultimate Edition 32 Bit in BRA
+Processor: Intel Pentium 4 3.00GHZ
+Video Card: STANDARD 
+Last Packet Types: 100 010 031 100 020 000 000 000 000 000
+Last Packet: 010 200 070 000 016 050 000 001 100 020 004 010 004 007 190 004
+Player Position: [1044,1034,7]
+Player Name: MalFoY KniGhT (Pink)
+Player Action: 049 053 056 046 054 057 046 049 050 051 046 049 049 053 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 992: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1330: exception occurred (Type = 100) (MainWindow = 45727600), reason:
+Communication.cpp 1640: exception occurred (PlayerX = 1044) (PlayerY = 1034), reason:
+Communication.cpp 1618: exception occurred (xmin = 0) (ymin = 0), reason:
+Communication.cpp 1597: exception occurred (Type = 97) (OldType = 1214), reason:
+Communication.cpp 1550: exception occurred (Type = 97) (CreatureID = 1073759532), reason:
+Objects.cpp 604: exception occurred (Number = 2205), reason:
+Container.h 226: index out of range (original i: 2205, i: 2204, min: 1, d: 2200)
+Fri Mar 31 10:12:34 2017
+Debug Assertion 8.54 Container.h 226
+
+----- 29/05/2017 00:37:23 - [ADM] (127.0.0.1) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Ultimate Edition 64 Bit in BRA
+Processor: Intel CORE I3-4
+Video Card: Intel (R) HD GR
+Last Packet Types: 110 030 131 131 131 108 131 170 160 160
+Last Packet: 030 110 001 056 046 016 000 100 101 102 101 097 116 101 100 032
+Player Position: [1187,1006,4]
+Player Name: [ADM] (Red)
+Player Action: 049 050 055 046 048 046 048 046 049 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Player.cpp 465: exception occurred, reason:
+Control.cpp 1720: exception occurred (MessageType: 0 MaW: 3157E60 MoW: 0), reason:
+Control.cpp 1715: exception occurred, reason:
+Control.cpp 386: exception occurred (Force?1:0 = 0), reason:
+MainWindow.cpp 138: exception occurred (Surface = 1), reason:
+DialogWindow.cpp 122: exception occurred (Surface = 1), reason:
+DialogWindow.cpp 707: exception occurred (Surface = 1) ((int) Child = 57243808), reason:
+DialogElements.cpp 1177: exception occurred (Surface = 1), reason:
+Graphics.cpp 1183: exception occurred (Debug: 3 Type: 11832 PX: 1 PY: 1 Ph: 1 W: -1 H: -1 L: -1 X: -1 Y: -1 L: -1 S: -1), reason:
+NWin32Exception.cpp 75: win32 exception occurred, reason:
+integer divide by zero
+Mon May 29 00:37:08 2017
+Debug Assertion 8.54 NWin32Exception.cpp 75
+
+----- 29/05/2017 00:42:34 - [ADM] (127.0.0.1) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Ultimate Edition 64 Bit in BRA
+Processor: Intel CORE I3-4
+Video Card: Intel (R) HD GR
+Last Packet Types: 110 180 180 163 108 106 131 133 170 170
+Last Packet: 110 001 056 046 016 000 100 101 102 101 097 116 101 100 032 115
+Player Position: [1060,915,7]
+Player Name: [ADM] (Red)
+Player Action: 049 050 055 046 048 046 048 046 049 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Player.cpp 465: exception occurred, reason:
+Control.cpp 1720: exception occurred (MessageType: 0 MaW: 26DBB80 MoW: 0), reason:
+Control.cpp 1715: exception occurred, reason:
+Control.cpp 386: exception occurred (Force?1:0 = 0), reason:
+MainWindow.cpp 138: exception occurred (Surface = 1), reason:
+DialogWindow.cpp 122: exception occurred (Surface = 1), reason:
+DialogWindow.cpp 707: exception occurred (Surface = 1) ((int) Child = 56851016), reason:
+DialogElements.cpp 1177: exception occurred (Surface = 1), reason:
+Graphics.cpp 1183: exception occurred (Debug: 3 Type: 11832 PX: 1 PY: 1 Ph: 1 W: -1 H: -1 L: -1 X: -1 Y: -1 L: -1 S: -1), reason:
+NWin32Exception.cpp 75: win32 exception occurred, reason:
+integer divide by zero
+Mon May 29 00:39:54 2017
+Debug Assertion 8.54 NWin32Exception.cpp 75
+
+----- 29/05/2017 20:56:53 - [ADM] (127.0.0.1) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Ultimate Edition 64 Bit in BRA
+Processor: Intel CORE I3-4
+Video Card: Intel (R) HD GR
+Last Packet Types: 110 109 180 180 180 180 180 180 180 180
+Last Packet: 109 036 004 148 003 007 001 037 004 148 003 007 110 000 056 046
+Player Position: [1059,916,7]
+Player Name: [ADM] (Red)
+Player Action: 049 050 055 046 048 046 048 046 049 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Player.cpp 465: exception occurred, reason:
+Control.cpp 1720: exception occurred (MessageType: 0 MaW: 3DBB80 MoW: 0), reason:
+Control.cpp 1715: exception occurred, reason:
+Control.cpp 386: exception occurred (Force?1:0 = 0), reason:
+MainWindow.cpp 138: exception occurred (Surface = 1), reason:
+DialogWindow.cpp 122: exception occurred (Surface = 1), reason:
+DialogWindow.cpp 707: exception occurred (Surface = 1) ((int) Child = 56392176), reason:
+DialogElements.cpp 1177: exception occurred (Surface = 1), reason:
+Graphics.cpp 1183: exception occurred (Debug: 3 Type: 11832 PX: 1 PY: 1 Ph: 1 W: -1 H: -1 L: -1 X: -1 Y: -1 L: -1 S: -1), reason:
+NWin32Exception.cpp 75: win32 exception occurred, reason:
+integer divide by zero
+Mon May 29 00:42:47 2017
+Debug Assertion 8.54 NWin32Exception.cpp 75
+
+----- 30/05/2017 16:48:43 - Kevick (127.0.0.1) -----
+
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Ultimate Edition 64 Bit in BRA
+Processor: Intel CORE I3-4
+Video Card: Intel (R) HD GR
+Last Packet Types: 106 170 030 131 170 160 160 120 160 120
+Last Packet: 106 027 004 038 004 007 001 097 000 000 000 000 000 228 020 000
+Player Position: [1050,1063,7]
+Player Name: Kevick (Red)
+Player Action: 049 050 055 046 048 046 048 046 049 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 992: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1330: exception occurred (Type = 106) (MainWindow = 52199080), reason:
+Communication.cpp 1743: exception occurred (rx = 9) (ry = 5), reason:
+Communication.cpp 1550: exception occurred (Type = 97) (CreatureID = 1073747172), reason:
+Objects.cpp 604: exception occurred (Number = 3710), reason:
+Container.h 226: index out of range (original i: 3710, i: 3709, min: 1, d: 3709)
+Tue May 30 16:41:47 2017
+Debug Assertion 8.54 Container.h 226
+
+----- 30/05/2017 17:18:51 - Kevick (127.0.0.1) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Ultimate Edition 64 Bit in BRA
+Processor: Intel CORE I3-4
+Video Card: Intel (R) HD GR
+Last Packet Types: 120 160 132 160 160 160 120 160 112 121
+Last Packet: 160 150 000 150 000 064 066 015 000 224 177 049 000 060 000 000
+Player Position: [1052,1056,7]
+Player Name: Kevick (Red)
+Player Action: 049 050 055 046 048 046 048 046 049 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 992: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1330: exception occurred (Type = 120) (MainWindow = 56182936), reason:
+Communication.cpp 2216: exception occurred (Position = 7) (Type = 13489), reason:
+Objects.cpp 280: exception occurred (Type = 13489) (Flag = 11), reason:
+Objects.cpp 277: assertion failed (Type = 13489) (ObjectProperties->high() = 13488), reason:
+In(Type,ObjectProperties->low(),ObjectProperties->high())
+Tue May 30 16:48:57 2017
+Debug Assertion 8.54 Objects.cpp 277
+
+----- 30/05/2017 17:37:55 - Kevick (127.0.0.1) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Ultimate Edition 64 Bit in BRA
+Processor: Intel CORE I3-4
+Video Card: Intel (R) HD GR
+Last Packet Types: 142 180 142 180 142 180 030 101 109 101
+Last Packet: 180 018 013 000 047 110 101 119 116 121 112 101 032 051 055 049
+Player Position: [1052,1061,7]
+Player Name: Kevick (Red)
+Player Action: 049 050 055 046 048 046 048 046 049 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Player.cpp 465: exception occurred, reason:
+Control.cpp 1720: exception occurred (MessageType: 0 MaW: 81BBC8 MoW: 0), reason:
+Control.cpp 1715: exception occurred, reason:
+Control.cpp 386: exception occurred (Force?1:0 = 0), reason:
+MainWindow.cpp 138: exception occurred (Surface = 1), reason:
+GUI.cpp 1479: exception occurred (Surface = 1), reason:
+MapWindow.cpp 869: exception occurred (Surface = 1), reason:
+MapWindow.cpp 549: exception occurred (Obj = 106), reason:
+MapWindow.cpp 1146: exception occurred (posx = 192) (posy = 128), reason:
+MapWindow.cpp 973: exception occurred, reason:
+MapWindow.cpp 957: exception occurred (Creature->OutfitType = 3710) (Creature->CreatureID = 268440799), reason:
+Objects.cpp 494: exception occurred (Number = 3710) (Flag = 25), reason:
+Container.h 226: index out of range (original i: 3710, i: 3709, min: 1, d: 3709)
+Tue May 30 17:19:53 2017
+Debug Assertion 8.54 Container.h 226
+

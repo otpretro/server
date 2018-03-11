@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Darkrai" nameDescription="a Darkrai" race="ghost" experience="1000" speed="300" manacost="0">
+  <health now="300000" max="300000"/>
+  <look type="968" head="0" body="0" legs="0" feet="0" corpse="0"/>
+
+<targetchange interval="8000" chance="0" />
+<strategy attack="100" defense="50" />
+
+<!--Flags-->
+
+<flags>
+    <flag summonable="1"/>        
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+    <flag lightlevel="5"/>
+    <flag lightcolor="215"/>
+  </flags>
+  
+   <script>
+<event name="cabum"/>
+</script>
+
+<attacks>
+
+    <attack name="melee" interval="2000" skill="20" attack="4410"/>
+<attack name="aurafantasma3" interval="2000" chance="100" range="3" min="-86" max="-2860"/>
+<attack name="aurafantasma4" interval="3000" chance="100" range="3" min="-86" max="-3760"/>
+<attack name="aurafantasma" interval="4000" chance="100" range="3" min="-86" max="-3630"/>
+<attack name="aurafantasma4" interval="5000" chance="100" range="3" min="-86" max="-7530"/>
+
+</attacks>
+
+
+  <defenses armor="50" defense="60">
+    <defense name="healing" interval="6000" chance="100" min="20000" max="70000">
+    </defense>
+    </defenses>
+    <elements>
+		<element firePercent="-50"/>
+		<element earthPercent="-35"/>
+		<element physicalPercent="-40"/>
+		<element icePercent="-15"/>
+  </elements>
+  <immunities>
+  </immunities>
+  <voices interval="3000" chance="70">
+    <voice sentence="darkrai!"/>
+  </voices>
+
+<script>
+  <event name="removeall8"/>
+</script>
+ <script>
+<event name="BlockHit6"></event>
+</script>
+</monster>

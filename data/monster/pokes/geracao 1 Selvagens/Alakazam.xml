@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Alakazam" nameDescription="a alakazam" race="psychc" experience="2290" speed="270" manacost="490">
+  <health now="25900" max="25900"/>
+  <look type="218" head="20" body="30" legs="40" feet="50" corpse="6057"/>
+
+
+<targetchange interval="8000" chance="0" />
+<strategy attack="100" defense="10" />
+
+<!--Flags-->
+
+<flags>
+    <flag summonable="1"/>        
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  
+   <script>
+<event name="cabum"/>
+</script>
+
+
+  <attacks>
+<attack name="melee" interval="2000" chance="100" range="3" min="-121" max="-350">
+</attack>
+<attack name="aurapsiquica2" interval="3400" chance="22" min="-354" max="-468">
+</attack>
+
+<attack name="Ethereal Spear" interval="3000" chance="100" min="-154" max="-268">
+</attack>
+
+  </attacks>
+  <defenses armor="0" defense="0"/>
+  <voices interval="5000" chance="10">
+    <voice sentence="ALAKA!"/>
+    <voice sentence="ZAAAM!"/>
+    <voice sentence="ALAKAZAM!"/>
+  </voices>
+
+<defenses armor="15" defense="15">
+		
+<defense name="speed" interval="7000" chance="12" speedchange="350" duration="4000">		
+<attribute key="areaEffect" value="redshimmer"/>	
+</defense>
+
+<defense name="light" interval="20000" chance="10" speedchange="270" duration="10000">		
+<attribute key="areaEffect" value="redshimmer"/>	
+</defense>
+</defenses>	
+
+
+ <loot>
+
+        <item id="5882" chance="9000" count="5" countmax="1"/>
+        <item id="5902" chance="7000" count="1" countmax="1"/>
+        <item id="5920" chance="3000" count="1" countmax="1"/>
+        <item id="2288" chance="50" count="1" countmax="1"/>
+        <item id="11074" chance="100" count="1" countmax="1"/>
+        <item id="8204" chance="100" count="1" countmax="1"/>
+	<item id="8869" countmax="1" chance="85500"/> -- future orb
+	<item id="8870" countmax="1" chance="20000"/> -- psy spoon
+  </loot>
+ <script>
+<event name="BlockHit6"></event>
+</script>
+</monster>

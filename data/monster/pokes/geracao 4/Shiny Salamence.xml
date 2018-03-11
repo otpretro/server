@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Salamence" nameDescription="a shiny salamence" race="dragon" experience="0" speed="270">
+  <health now="30500" max="30500"/>
+  <look type="3536" head="0" body="0" legs="0" feet="0" corpse="12875"/>
+
+<targetchange interval="5000" chance="5" />
+<strategy attack="100" defense="80" />
+
+<!--Flags-->
+
+<flags>
+    <flag summonable="1"/>        
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+    <attacks>
+    <attack name="melee" interval="1200" min="-50" max="-2530"/>
+  </attacks>
+
+  <voices interval="3000" chance="100">
+    <voice sentence="Salamence!"/>
+    <voice sentence="Salamence!"/>
+  </voices>
+
+<elements>
+	<element physicalPercent="60"/>
+        <element earthPercent="50"/>
+	<element energyPercent="20"/>
+	<element icePercent="-4"/>
+	<element deathPercent="10"/>
+	<element firePercent="-25"/>
+	<element holyPercent="-25"/>
+	<element poisonPercent="5"/>
+	<element drownPercent="50"/>
+</elements>
+
+  <defenses armor="100" defense="80">
+  </defenses>
+
+
+</monster>

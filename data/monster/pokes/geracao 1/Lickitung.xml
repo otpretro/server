@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="Lickitung" nameDescription="a Lickitung" race="normal" experience="0" species="ice" speed="390" manacost="0">
+    <health now="5800" max="5800"/>
+    <look type="11" corpse="2953"/>
+
+<targetchange interval="8000" chance="0" />
+<strategy attack="100" defense="10" />
+
+<!--Flags-->
+
+<flags>
+    <flag summonable="1"/>        
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+    <attacks>
+    <attack name="melee" interval="1800" min="-10" max="-40"/>
+  </attacks>
+
+
+  <voices interval="2000" chance="100">
+    <voice sentence="Lickitung"/>
+  </voices>
+
+    <defenses armor="30" defense="30">
+  </defenses>
+
+  </monster>

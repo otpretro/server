@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Charmander" nameDescription="a Charmander" race="fire" experience="200" speed="166" manacost="550">
+  <health now="8070" max="8070"/>
+  <look type="29" head="20" body="30" legs="40" feet="50" corpse="5983"/>
+
+<targetchange interval="8000" chance="0" />
+<strategy attack="100" defense="10" />
+
+<!--Flags-->
+
+<flags>
+    <flag summonable="1"/>        
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  
+   <script>
+<event name="cabum"/>
+</script>
+
+  <attacks>
+    <attack name="melee" interval="1900" range="1" min="-40" max="-160"/>
+<attack name="aurafogo3" interval="2000" chance="20" range="7" min="-20" max="-350"/>
+ </attacks>
+  <defenses armor="0" defense="0"/>
+  <voices interval="5000" chance="10">
+    <voice sentence="CHARMANDER!"/>
+    <voice sentence="CHAR!"/>
+    <voice sentence="MANDER!"/>
+  </voices>
+
+  <loot>
+
+                <item id="2671" chance="16000" count="5" countmax="1"/>
+                <item id="5910" chance="7000" count="5" countmax="1"/>
+                <item id="5894" chance="7000" count="5" countmax="1"/>
+		<item id="5913" chance="5000" count="2" countmax="1"/>
+		<item id="11076"  count="1" countmax="1" chance="200"/>
+		<item id="5468" count="1" countmax="1" chance="500"/>
+		<item id="10819"  count="1" countmax="1" chance="100"/>
+		<item id="2283" count="1" countmax="1" chance="50"/>
+
+  </loot>
+ <script>
+<event name="BlockHit6"></event>
+</script>
+</monster>

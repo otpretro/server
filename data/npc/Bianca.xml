@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Bianca" script="data/npc/scripts/tesouro3.lua" walkinterval="0" skull="1">
+    <health now="100" max="100"/>
+	<look type="1280"/>
+	<parameters>
+		<parameter key="message_greet" value="Ola |PLAYERNAME| sabe noticias de Pedro ? {sim}."/>
+
+    </parameters>
+</npc>

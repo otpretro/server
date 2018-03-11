@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Victreebel" nameDescription="a Victreebel" race="undead" experience="4356" speed="199" manacost="620">
+  <health now="16000" max="16000"/>
+  <look type="240" head="20" body="30" legs="40" feet="50" corpse="6332"/>
+
+<targetchange interval="8000" chance="0" />
+<strategy attack="100" defense="10" />
+
+<!--Flags-->
+
+<flags>
+    <flag summonable="1"/>        
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  
+   <script>
+<event name="cabum"/>
+</script>
+
+ <attacks>
+    <attack name="melee" interval="1700" min="-180" max="-235"/>
+    
+  </attacks>
+<defenses armor="0" defense="5"/>
+  <voices interval="5000" chance="10">
+    <voice sentence="VIC!"/>
+    <voice sentence="VICTREEBEL!!"/>
+  </voices>
+  <loot>
+
+		<item id="5954" chance="10000" count="5" countmax="1"/>
+		<item id="2111"  count="2" countmax="1" chance="5000"/>
+		<item id="5883" count="1" countmax="1" chance="1000"/>
+		<item id="6549"  count="1" countmax="1" chance="100"/>
+		<item id="2276" count="1" countmax="1" chance="50"/>
+		<item id="11079"  count="1" countmax="1" chance="110"/>
+		<item id="5914"  count="2" countmax="1" chance="3000"/>
+		<item id="11095"  count="1" countmax="1" chance="2000"/>
+		<item id="5887"  count="1" countmax="1" chance="7000"/>
+		<item id="9460"  count="2" countmax="1" chance="3000"/>
+		<item id="6544"  count="10" countmax="1" chance="4000"/>
+		<item id="9462" count="1" countmax="1" chance="3000"/>
+
+  </loot>
+ <script>
+<event name="BlockHit6"></event>
+</script>
+
+</monster>

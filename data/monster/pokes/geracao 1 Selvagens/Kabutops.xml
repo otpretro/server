@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<monster name="Kabutops" namedescription="a Kabutops" race="rock" experience="6823" speed="200" manacost="250">
+  <health now="12920" max="12920"/>
+  <look type="13" head="20" body="30" legs="40" feet="50" corpse="6345"/>
+
+<targetchange interval="8000" chance="0" />
+<strategy attack="100" defense="10" />
+
+<!--Flags-->
+
+<flags>
+    <flag summonable="1"/>        
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  
+   <script>
+<event name="cabum"/>
+</script>
+
+
+  <attacks>
+  <attack name="melee" interval="2000" chance="50" min="1" max="650"/>
+  <attack name="aurainseto2" interval="8200" chance="100" min="-100" max="-280"/>
+
+  </attacks>
+
+
+  <defenses armor="1" defense="2"/>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="0"/>
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="Kaabutops"/>
+  </voices>
+  <loot>
+		<item id="11079" chance="50" count="1" countmax="1"/>
+		<item id="2136"  count="2" countmax="1" chance="7800"/>
+		<item id="6125" count="2" countmax="1" chance="1000"/>
+		<item id="5896"  count="5" countmax="1" chance="4100"/>
+		<item id="5896" count="1" countmax="1" chance="5000"/>
+		<item id="11266"  count="3" countmax="1" chance="110"/>
+		<item id="5899"  count="2" countmax="1" chance="150"/>
+		<item id="2280"  count="1" countmax="1" chance="50"/>
+                <item id="2678"  count="1" countmax="1" chance="400"/>
+                <item id="2280"  count="1" countmax="1" chance="50"/>
+
+  </loot>
+
+ <script>
+<event name="BlockHit6"></event>
+</script>
+
+</monster>

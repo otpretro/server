@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<creaturescripts>
+
+<event type="advance" name="recompensa" event="script" value="recompensa.lua"/>
+<event type="login" name="BlessCheck" event="script" value="avisobless.lua"/>
+
+<event type="attack" name="BlockHit6" event="script" value="ataque.lua"/>
+<event type="statschange" name="Exp" event="script" value="exp5.lua"/>
+
+
+
+<event type="cast" name="BlockSpells" event="script" value="wildpoke.lua"/>
+<event type="attack" name="BlockHit3" event="script" value="wildpoke.lua"/>
+<event type="direction" name="AvoidLook" event="script" value="wildpoke.lua"/>
+<event type="advance" name="lvlup" event="script" value="efeitoup.lua"/>
+<event type="kill" name="anunciarmorte" event="script" value="anunciar_morte.lua"/>
+<event type="login" name="MutePlayer" event="script" value="mute_check.lua"/>
+<event type="look" name="Alook" event="script" value="look.lua"/>
+<event type="death" name="cabum" event="script" value="halloween.lua"/>
+<event type="login" name="expvip" event="script" value="expvip.lua"/>
+<event type="death" name="tp" event="script" value="arena1.lua"/>
+<event type="death" name="removeall" event="script" value="mewtwo.lua"/>
+<event type="death" name="removeall2" event="script" value="meta.lua"/>
+<event type="death" name="removeall3" event="script" value="mew.lua"/>
+<event type="death" name="removeall4" event="script" value="lugia.lua"/>
+<event type="death" name="removeall8" event="script" value="pesadelo.lua"/>
+<event type="login" name="FimPremium" event="script" value="fimvip.lua"/>
+<event type="think" name="Flying" event="script" value="flycool.lua"/>
+<event type="death" name="DiePoke" event="script" value="goback.lua"/>
+
+<event type="death" name="PlayerPokeDeath" event="script" value="playerpdeath.lua" />
+
+<event type="traderequest" name="tradd" event="script" value="notrade.lua"/>
+<event type="login" name="PlayerLogin" event="script" value="login.lua"/>
+<event type="joinchannel" name="GuildMotd" event="script" value="guildmotd.lua"/>
+<event type="receivemail" name="Mail" event="script" value="mail.lua"/>
+<event type="reportbug" name="SaveReportBug" event="script" value="reportbug.lua"/>
+<event type="death" name="rk" event="script" value="rk.lua"/>
+<event type="login" name="speed" event="script" value="speed.lua"/>
+<event type="think" name="Idle" event="script" value="idle.lua"/>
+<event type="think" name="SkullCheck" event="script" value="skullcheck.lua"/>
+</creaturescripts>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Goldeen" nameDescription="a Goldeen" race="water" experience="0" speed="156" manacost="315">
+  <health now="850" max="850"/>
+  <look type="274" head="20" body="30" legs="40" feet="50" corpse="2970"/>
+
+<targetchange interval="8000" chance="0" />
+<strategy attack="100" defense="10" />
+
+<!--Flags-->
+<flags>
+    <flag summonable="1"/>        
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+    <attacks>
+    <attack name="melee" interval="1800" min="-5" max="-10"/>
+  </attacks>
+
+
+  <defenses armor="7" defense="10"/>
+
+    <elements>
+		<element icePercent="20"/>
+		<element firePerent="60"/>
+		<element energyPercent="-10"/>
+		<element deathPercent="-10"/>
+  </elements>
+
+
+  <voices interval="2000" chance="100">
+    <voice sentence="goldeen!"/>
+  </voices>
+
+</monster>

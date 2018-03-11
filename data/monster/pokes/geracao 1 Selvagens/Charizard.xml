@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Charizard" nameDescription="a Charizard" race="fire" experience="3050" speed="300">
+  <health now="36800" max="36800"/>
+  <look type="67" head="20" body="30" legs="40" feet="50" corpse="6005"/>
+
+<targetchange interval="8000" chance="0" />
+<strategy attack="100" defense="65" />
+
+<!--Flags-->
+
+<flags>
+    <flag summonable="1"/>        
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  
+   <script>
+<event name="cabum"/>
+</script>
+
+
+  <attacks>
+    <attack name="melee" interval="1200" range="1" min="-180" max="-920"/>
+    <attack name="aurafogo" interval="1300" range="1" min="-180" max="-1220"/>
+    <attack name="aurafogo4" interval="1400" range="1" min="-180" max="-1920"/>
+
+  </attacks>
+  <defenses armor="100" defense="65"/>
+	<voices interval="1000" chance="100">
+		<voice sentence="CHARIZARD!"/>
+		<voice sentence="ZAAARD!"/>
+		<voice sentence="CHARII!"/>
+	</voices>
+
+
+<elements>
+	<element physicalPercent="10"/>
+        <element earthPercent="70"/>
+	<element energyPercent="25"/>
+	<element icePercent="-5"/>
+	<element deathPercent="-8"/>
+	<element firePercent="95"/>
+	<element holyPercent="-25"/>
+	<element poisonPercent="-17"/>
+	<element drownPercent="-60"/>
+</elements>
+
+
+  <loot>
+
+                <item id="2671" chance="16000" count="5" countmax="1"/>
+                <item id="5910" chance="7000" count="5" countmax="1"/>
+                <item id="5894" chance="7000" count="5" countmax="1"/>
+		<item id="5913" chance="5000" count="2" countmax="1"/>
+		<item id="11076"  count="1" countmax="1" chance="200"/>
+		<item id="5468" count="1" countmax="1" chance="500"/>
+		<item id="10819"  count="1" countmax="1" chance="100"/>
+		<item id="2283" count="1" countmax="1" chance="50"/>
+
+  </loot>
+
+ <script>
+<event name="BlockHit6"></event>
+</script>
+</monster>

@@ -1,0 +1,29 @@
+Nome: Alakazam.
+Tipo: psychic.
+Level requerido: 80.
+
+Evoluções:
+não tem.
+
+Shiny:
+Shiny Alakazam - level 8 - 8 Shiny Stone.
+
+Moves:
+Psybeam - m1 - level 80 - psychic
+Psywave - m2 - level 80 - psychic
+Psy Pulse - m3 - level 80 - psychic
+Confusion - m4 - level 80 - psychic
+Psychic - m5 - level 80 - psychic
+Psyusion - m6 - level 95 - psychic
+Calm Mind - m7 - level 80 - psychic
+Hypnosis - m8 - level 80 - psychic
+Reflect - m9 - level 85 - psychic
+Restore - m10 - level 85 - psychic
+
+
+Habilidade:
+Teleport (type either !teleport or !casa")
+Flash (use order on your pokemon)
+Blink (use order somewhere to teleport)
+
+by PokémonDBR Oficial.

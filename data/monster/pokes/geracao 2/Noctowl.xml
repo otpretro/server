@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Noctowl" nameDescription="a noctowl" race="undead" experience="98" speed="210" manacost="320">
+  <health now="5200" max="5200"/>
+  <look type="677" head="20" body="30" legs="40" feet="50" corpse="12840"/>
+	<targetchange interval="100" chance="0"/>
+  <strategy attack="100" defense="0"/>
+
+<flags>
+<flag summonable="1"/>
+<flag convinceable="1"/>
+<flag canpushitems="1"/>
+<flag canpushcreatures="1"/>
+<flag hostile="1"/>
+<flag attackable="1"/>
+<flag pushable="0"/>
+<flag staticattack="98"/>
+<flag targetdistance="1"/>
+<flag walkable="1"/>
+<flag runonhealth="1"/>
+<flag skull="3"/>
+</flags>
+
+    <attacks>
+    <attack name="melee" interval="1800" min="-10" max="-40"/>
+  </attacks>
+
+  <defenses armor="6" defense="10"/>
+  <voices interval="2000" chance="10">
+    <voice sentence="Noctowl..."/>
+  </voices>
+ <loot>
+
+		<item id="2789"  count="1" countmax="1" chance="10000"/>
+		<item id="5877" count="1" countmax="1" chance="1000"/>
+		<item id="5888"  count="1" countmax="1" chance="3400"/>
+		<item id="2289" count="1" countmax="1" chance="50"/>
+		<item id="2289"  count="1" countmax="1" chance="100"/>
+		<item id="2689"  count="2" countmax="1" chance="150"/>
+		<item id="11266"  count="1" countmax="1" chance="2000"/>
+</loot>
+ <script>
+<event name="BlockHit6"></event>
+</script>
+</monster>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Lucario" nameDescription="a Lucario" race="ground" experience="0" speed="260" manacost="0">
+  <health now="20500" max="20500"/>
+  <look type="1000" head="0" body="0" legs="0" feet="0" corpse="14490"/>
+
+<targetchange interval="8000" chance="0" />
+<strategy attack="100" defense="70" />
+
+<!--Flags-->
+
+<flags>
+    <flag summonable="1"/>        
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+    <attacks>
+    <attack name="melee" interval="2000" min="-10" max="-450"/>
+  </attacks>
+
+  <voices interval="3000" chance="70">
+    <voice sentence="Lucario!"/>
+    <voice sentence="Lucario!"/>
+  </voices>
+
+<elements>
+	<element physicalPercent="30"/>
+        <element earthPercent="70"/>
+	<element energyPercent="70"/>
+	<element icePercent="70"/>
+	<element deathPercent="70"/>
+	<element firePercent="-10"/>
+	<element holyPercent="70"/>
+	<element poisonPercent="70"/>
+	<element drownPercent="60"/>
+</elements>
+
+  <defenses armor="15" defense="20">
+  </defenses>
+
+
+</monster>

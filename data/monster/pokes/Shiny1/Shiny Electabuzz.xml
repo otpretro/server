@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Electabuzz" nameDescription="a Shiny Electabuzz" race="electr" experience="0" speed="260" manacost="340">
+	<health now="6900" max="6900"/>
+	<look type="497" head="0" body="0" legs="0" feet="0" corpse="6065"/>
+
+<targetchange interval="8000" chance="0" />
+<strategy attack="100" defense="10" />
+
+<!--Flags-->
+
+<flags>
+    <flag summonable="1"/>        
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+    <attacks>
+    <attack name="melee" interval="1800" min="-10" max="-80"/>
+  </attacks>
+
+  <defenses armor="1" defense="1">
+  </defenses>
+
+  <voices interval="8000" chance="100">
+    <voice sentence="Electaabuzz"/>
+	   <voice sentence="buzz"/>
+	</voices>
+ 
+</monster>
+

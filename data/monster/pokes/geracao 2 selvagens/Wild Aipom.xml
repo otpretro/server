@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Aipom" nameDescription="a Aipom Selvagem" race="normal" experience="275" speed="198" manacost="320">
+  <health now="6400" max="6400"/>
+  <look type="532" head="20" body="30" legs="40" feet="50" corpse="8775"/>
+	<targetchange interval="100" chance="0"/>
+  <strategy attack="100" defense="0"/>
+
+<flags>
+<flag summonable="1"/>
+<flag convinceable="1"/>
+<flag canpushitems="1"/>
+<flag canpushcreatures="1"/>
+<flag hostile="1"/>
+<flag attackable="1"/>
+<flag pushable="0"/>
+<flag staticattack="98"/>
+<flag targetdistance="1"/>
+<flag runonhealth="1"/>
+</flags>
+
+    <attacks>
+    <attack name="melee" interval="2000" min="-10" max="-290"/>
+  </attacks>
+
+<elements>
+	<element physicalPercent="10"/>
+        <element earthPercent="30"/>
+	<element energyPercent="30"/>
+	<element icePercent="30"/>
+	<element deathPercent="30"/>
+	<element firePercent="30"/>
+	<element holyPercent="30"/>
+	<element poisonPercent="30"/>
+	<element drownPercent="30"/>
+</elements>
+
+  <defenses armor="6" defense="10"/>
+  <voices interval="3000" chance="10">
+    <voice sentence="Aipomm"/>
+  </voices>
+
+  <loot>
+		<item id="5898" chance="160" count="1" countmax="1"/>
+		<item id="9464"  count="1" countmax="1" chance="50"/>
+		<item id="11078" count="2" countmax="1" chance="150"/>
+		<item id="2281"  count="1" countmax="1" chance="50"/>
+		<item id="5877" count="2" countmax="1" chance="5000"/>
+		<item id="2691"  count="4" countmax="1" chance="1100"/>
+
+  </loot>
+ <script>
+<event name="BlockHit6"></event>
+</script>
+ 
+</monster>

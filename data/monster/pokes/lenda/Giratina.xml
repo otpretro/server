@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Giratina" nameDescription="a Giratina" race="ghost" experience="146000" speed="480" manacost="0">
+  <health now="1850000" max="1850000"/>
+  <look type="755" head="0" body="0" legs="0" feet="0" corpse="12677"/>
+
+<targetchange interval="8000" chance="0" />
+<strategy attack="100" defense="10" />
+
+<!--Flags-->
+
+<flags>
+    <flag summonable="1"/>        
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  
+   <script>
+<event name="cabum"/>
+</script>
+
+<attacks>
+
+    <attack name="melee" interval="2000" skill="20" attack="1410"/>
+<attack name="auravoador3" interval="2000" chance="100" range="3" min="-86" max="-1860"/>
+<attack name="auravoador4" interval="3000" chance="100" range="3" min="-86" max="-1760"/>
+<attack name="aurafantasma" interval="4000" chance="100" range="3" min="-86" max="-1630"/>
+<attack name="aurafantasma4" interval="5000" chance="100" range="3" min="-86" max="-4530"/>
+
+</attacks>
+
+
+  <defenses armor="50" defense="60">
+    <defense name="healing" interval="3000" chance="100" min="500" max="10000">
+    </defense>
+    </defenses>
+    <elements>
+		<element firePercent="-50"/>
+		<element earthPercent="-35"/>
+		<element physicalPercent="-40"/>
+		<element icePercent="-15"/>
+  </elements>
+  <immunities>
+  </immunities>
+  <voices interval="3000" chance="100">
+    <voice sentence="tinaaaaaa!!"/>
+  </voices>
+ <script>
+<event name="BlockHit6"></event>
+</script>
+ <loot>
+
+        <item id="2159" chance="99000" count="2" countmax="20"/>
+  </loot>
+</monster>

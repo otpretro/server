@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<monster name="Horsea" namedescription="a horsea" race="water" experience="0" speed="160" manacost="220">
+  <health now="350" max="350"/>
+  <look type="33" head="20" body="30" legs="40" feet="50" corpse="2973"/>
+
+<targetchange interval="8000" chance="0" />
+<strategy attack="100" defense="10" />
+
+<!--Flags-->
+
+<flags>
+    <flag summonable="1"/>        
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+    <attacks>
+    <attack name="melee" interval="1800" min="-1" max="-10"/>
+  </attacks>
+
+  <defenses armor="0" defense="0"/>
+
+  <voices interval="2000" chance="90">
+    <voice sentence="Horsea"/>
+    <voice sentence="sia"/>
+  </voices>
+
+</monster>

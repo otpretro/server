@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<monster name="Meowth" namedescription="a Meowth" race="normal" experience="630" speed="190" manacost="200">
+  <health now="1500" max="1500"/>
+  <look type="105" head="20" body="30" legs="40" feet="50" corpse="6034"/>
+
+<targetchange interval="8000" chance="0" />
+<strategy attack="100" defense="10" />
+
+<!--Flags-->
+
+<flags>
+    <flag summonable="1"/>        
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  
+   <script>
+<event name="cabum"/>
+</script>
+
+  <attacks>
+    <attack name="melee" interval="1000" skill="30" attack="90"/>
+<attack name="auralutador3" interval="6900" chance="100" range="3" min="-91" max="-151"/>
+  </attacks>
+  <defenses armor="1" defense="3"/>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="0"/>
+  </immunities>
+  <voices interval="500" chance="10">
+    <voice sentence="Meowth"/>
+  </voices>
+<loot>
+        
+		<item id="2789"  count="1" countmax="1" chance="10000"/>
+		<item id="5877" count="1" countmax="1" chance="1000"/>
+		<item id="5888"  count="1" countmax="1" chance="3400"/>
+		<item id="2289" count="1" countmax="1" chance="50"/>
+		<item id="2289"  count="1" countmax="1" chance="100"/>
+		<item id="2689"  count="2" countmax="1" chance="150"/>
+		<item id="11266"  count="1" countmax="1" chance="2000"/>
+		<item id="5876"  count="1" countmax="1" chance="7000"/>
+</loot>
+ <script>
+<event name="BlockHit6"></event>
+</script>
+</monster>

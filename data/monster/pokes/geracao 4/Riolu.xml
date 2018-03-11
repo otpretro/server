@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Riolu" nameDescription="a Riolu" race="ground" experience="0" speed="200" manacost="0">
+  <health now="6500" max="6500"/>
+  <look type="3341" head="0" body="0" legs="0" feet="0" corpse="14491"/>
+
+<targetchange interval="8000" chance="0" />
+<strategy attack="100" defense="15" />
+
+<!--Flags-->
+
+<flags>
+    <flag summonable="1"/>        
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+    <attacks>
+    <attack name="melee" interval="2000" min="-10" max="-70"/>
+  </attacks>
+
+
+  <voices interval="3000" chance="50">
+    <voice sentence="Riolu!"/>
+    <voice sentence="Riolu!"/>
+  </voices>
+
+<elements>
+	<element physicalPercent="50"/>
+        <element earthPercent="70"/>
+	<element energyPercent="-5"/>
+	<element icePercent="90"/>
+	<element deathPercent="90"/>
+	<element firePercent="90"/>
+	<element holyPercent="90"/>
+	<element poisonPercent="90"/>
+	<element drownPercent="80"/>
+</elements>
+
+  <defenses armor="15" defense="20">
+  </defenses>
+
+
+</monster>

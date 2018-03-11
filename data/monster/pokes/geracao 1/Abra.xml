@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Abra" nameDescription="an abra" race="psychc" experience="0" speed="240" manacost="0">
+  <health now="620" max="620"/>
+  <look type="262" head="113" body="57" legs="95" feet="113" corpse="2905"/>
+
+
+<targetchange interval="8000" chance="0" />
+<strategy attack="100" defense="15" />
+
+<!--Flags-->
+
+<flags>
+    <flag summonable="1"/>        
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+
+  <attacks>
+<attack name="melee" interval="2000" min="-1" max="-22"/>
+  </attacks>
+
+  <defenses armor="30" defense="15">
+  </defenses>
+
+<elements>
+	<element physicalPercent="5"/>
+        <element earthPercent="15"/>
+	<element energyPercent="35"/>
+	<element icePercent="25"/>
+	<element deathPercent="-2"/>
+	<element firePercent="15"/>
+	<element holyPercent="2"/>
+	<element poisonPercent="5"/>
+	<element drownPercent="30"/>
+</elements>
+	
+  <voices interval="2000" chance="100">
+	<voice sentence="Abraaaa"/>
+    <voice sentence="Abra"/>
+  </voices>
+
+</monster>

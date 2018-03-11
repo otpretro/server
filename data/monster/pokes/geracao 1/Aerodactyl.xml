@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<monster name="Aerodactyl" namedescription="a aerodactyl" race="rock" experience="0" speed="210" manacost="250">
+  <health now="8000" max="8000"/>
+  <look type="10" head="20" body="30" legs="40" feet="50" corpse="6338"/>
+
+<targetchange interval="8000" chance="0" />
+<strategy attack="100" defense="30" />
+
+<!--Flags-->
+
+<flags>
+    <flag summonable="1"/>        
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+
+  <attacks>
+    <attack name="melee" interval="1800" min="-100" max="-200"/>
+  </attacks>
+
+<elements>
+	<element physicalPercent="50"/>
+        <element earthPercent="25"/>
+	<element energyPercent="20"/>
+	<element icePercent="-10"/>
+	<element deathPercent="25"/>
+	<element firePercent="25"/>
+	<element holyPercent="-10"/>
+	<element poisonPercent="25"/>
+	<element drownPercent="-10"/>
+</elements>
+
+  <defenses armor="80" defense="30"/>
+  <voices interval="2000" chance="100">
+    <voice sentence="AERODACTYL"/>
+    <voice sentence="AERO"/>
+  </voices>
+  <loot>
+  </loot>
+</monster>

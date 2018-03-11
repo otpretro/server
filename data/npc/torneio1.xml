@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Nick" script="data/npc/scripts/tournament1.lua" walkinterval="0" skull="3">
+<health now="150" max="150"/>
+<look type="1245" head="20" body="100" legs="50" feet="99" corpse="0"/>
+<parameters>
+<parameter key="message_greet" value="Ola |PLAYERNAME|. Sou o Nick, Encarregado pelo Torneio diario, caso queira entrar diga: {torneio}."/>
+        </parameters>
+</npc>

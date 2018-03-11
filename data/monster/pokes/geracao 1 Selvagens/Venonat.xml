@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Venonat" nameDescription="a Venonat" race="bug" experience="614" speed="200" manacost="260">
+  <health now="3350" max="3350"/>
+  <look type="52" head="20" body="30" legs="40" feet="50" corpse="5997"/>
+
+<targetchange interval="8000" chance="0" />
+<strategy attack="100" defense="10" />
+
+<!--Flags-->
+
+<flags>
+    <flag summonable="1"/>        
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+  <attacks>
+    <attack name="melee" interval="2000" skill="20" attack="40"/>
+   
+
+  </attacks>
+  <defenses armor="2" defense="6"/>
+
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="0"/>
+  </immunities>
+  <loot>
+
+		<item id="2284" chance="50" count="1" countmax="1"/>
+		<item id="2787"  count="3" countmax="1" chance="4800"/>
+		<item id="5914" count="2" countmax="1" chance="1000"/>
+		<item id="9460"  count="1" countmax="1" chance="4100"/>
+		<item id="11082" count="1" countmax="1" chance="50"/>
+		<item id="11316" count="1" countmax="1" chance="150"/>
+		<item id="2680" count="1" countmax="1" chance="150"/>
+  </loot>
+ <script>
+<event name="BlockHit6"></event>
+</script>
+</monster>

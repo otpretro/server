@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Treecko" nameDescription="a Shiny Treecko" race="grass" experience="0" speed="270" manacost="330">
+  <health now="3500" max="3500"/>
+  <look type="3710" head="20" body="30" legs="40" feet="50" corpse="15035"/>
+
+<targetchange interval="8000" chance="0" />
+<strategy attack="100" defense="10" />
+
+<!--Flags-->
+
+<flags>
+    <flag summonable="1"/>        
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+  <attacks>
+    <attack name="melee" interval="1800" min="-10" max="-90"/>
+	    <attack name="Wrath of Nature" interval="2000" chance="100" min="-100" max="-450"> </attack>
+
+  </attacks>
+
+  <defenses armor="11" defense="11"/>
+
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="0"/>
+  </immunities>
+
+  <voices interval="2000" chance="100">
+    <voice sentence="Treecko!"/>
+    <voice sentence="Treeee!"/>
+  </voices>
+
+  <loot>
+                
+		<item id="5954" chance="10000" count="5" countmax="1"/>
+		<item id="2111"  count="2" countmax="1" chance="5000"/>
+		<item id="5883" count="1" countmax="1" chance="1000"/>
+		<item id="6549"  count="1" countmax="1" chance="100"/>
+		<item id="2276" count="1" countmax="1" chance="50"/>
+		<item id="11079"  count="1" countmax="1" chance="110"/>
+		<item id="5914"  count="2" countmax="1" chance="3000"/>
+		<item id="11095"  count="1" countmax="1" chance="2000"/>
+		<item id="5887"  count="1" countmax="1" chance="10000"/>
+		<item id="9460"  count="2" countmax="1" chance="3000"/>
+		<item id="6544"  count="10" countmax="1" chance="10000"/>
+		<item id="9462" count="1" countmax="1" chance="3000"/>
+
+  </loot>
+  
+</monster>

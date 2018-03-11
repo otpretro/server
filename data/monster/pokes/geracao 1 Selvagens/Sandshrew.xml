@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Sandshrew" nameDescription="a Sandshrew" race="ground" experience="1340" speed="150" manacost="310">
+  <health now="1700" max="1700"/>
+  <look type="43" head="20" body="30" legs="40" feet="50" corpse="5988"/>
+
+<targetchange interval="8000" chance="0" />
+<strategy attack="100" defense="10" />
+
+<!--Flags-->
+
+<flags>
+    <flag summonable="1"/>        
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  
+   <script>
+<event name="cabum"/>
+</script>
+
+  <attacks>
+    <attack name="melee" interval="2000" range="1" min="-33" max="-234"/> 
+  </attacks>
+  <defenses armor="0" defense="3"/>
+  <voices interval="5000" chance="10">
+    <voice sentence="SAND!"/>
+    <voice sentence="SANDSHREW!"/>
+  </voices>
+  <loot>
+		<item id="5951" chance="10000" count="5" countmax="1"/>
+		<item id="11341"  count="1" countmax="1" chance="500"/>
+		<item id="5900" count="2" countmax="1" chance="1000"/>
+
+		<item id="11077"  count="1" countmax="1" chance="100"/>
+		<item id="2287" count="1" countmax="1" chance="50"/>
+
+		<item id="5877"  count="3" countmax="1" chance="110"/>
+		<item id="5880"  count="2" countmax="1" chance="150"/>
+		<item id="7242"  count="1" countmax="1" chance="400"/>
+                <item id="2678"  count="1" countmax="1" chance="400"/>
+
+  </loot>
+ <script>
+<event name="BlockHit6"></event>
+</script>
+</monster>

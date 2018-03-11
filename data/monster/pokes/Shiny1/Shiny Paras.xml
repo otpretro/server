@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<monster name="Shiny Paras" namedescription="a Shiny Paras" race="bug" experience="0" speed="170" manacost="275">
+  <health now="850" max="850"/>
+  <look type="510" head="20" body="30" legs="40" feet="50" corpse="3007"/>
+
+<targetchange interval="8000" chance="0" />
+<strategy attack="100" defense="10" />
+
+<!--Flags-->
+
+<flags>
+    <flag summonable="1"/>        
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+      <attacks>
+    <attack name="melee" interval="1800" min="-10" max="-40"/>
+  </attacks>
+
+  <defenses armor="1" defense="4"/>
+  
+  <voices interval="2000" chance="100">
+    <voice sentence="paras"/>
+  </voices>
+  
+</monster>

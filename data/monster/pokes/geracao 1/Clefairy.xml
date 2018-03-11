@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Clefairy" nameDescription="a Clefairy" race="fairy" experience="0" speed="268" manacost="0">
+  <health now="1400" max="1400"/>
+  <look type="73" head="20" body="30" legs="40" feet="50" corpse="2968"/>
+	
+<targetchange interval="8000" chance="0" />
+<strategy attack="100" defense="10" />
+
+<!--Flags-->
+
+<flags>
+    <flag summonable="1"/>        
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+  <attacks>
+    <attack name="melee" interval="1800" min="-10" max="-40"/>
+  </attacks>
+
+
+
+  <defenses armor="30" defense="20">
+  </defenses>
+
+
+  <elements>
+  <element firePercent="30"/>
+    <element physicalPercent="25"/>
+	<element holyPercent="25"/>
+	  <element deathPercent="-20"/>
+	    <element earthPercent="50"/>
+		  <element energyPercent="25"/>
+		    <element icePercent="15"/>
+		
+	</elements>
+
+  <voices interval="2000" chance="100">
+    <voice sentence="Fairyy"/>
+
+  </voices>
+</monster>

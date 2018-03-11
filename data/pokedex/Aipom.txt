@@ -1,0 +1,20 @@
+Name: Aipom
+Type: normal
+Required level: 15
+
+Evolutions:
+none
+
+Moves: 
+Scratch - m1 - level 15 - normal
+Triple Kick - m2 - level 15 - fighting
+Karate Chop - m3 - level 18 - fighting
+Cross Chop - m4 - level 20 - fighting
+Rage - m5 - level 22 - dragon
+Fist Machine - m6 - level 35 - fighting
+
+Ability:
+None
+
+info:
+Aipom's tail ends in a hand-like appendage that can be cleverly manipulated. However, because the Pokémon uses its tail so much, its real hands have become rather clumsy.

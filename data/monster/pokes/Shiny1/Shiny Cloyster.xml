@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Cloyster" nameDescription="a Shiny Cloyster" race="water" experience="0" speed="520" manacost="480">
+  <health now="5800" max="5800"/>
+  <look type="2151" head="0" body="0" legs="0" feet="0" corpse="2932"/>
+
+<targetchange interval="8000" chance="0" />
+<strategy attack="100" defense="10" />
+
+<!--Flags-->
+
+<flags>
+    <flag summonable="1"/>        
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+  <attacks>
+    <attack name="melee" interval="1800" min="-10" max="-70"/>
+  </attacks>
+
+
+  <defenses armor="15" defense="15">
+  </defenses>
+
+  <immunities>
+    <immunity ice="1"/>
+    <immunity fire="1"/>
+    <immunity lifedrain="1"/>
+    <immunity paralyze="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+      <elements>
+  <element energyPercent="-25"/>
+  <element earthPercent="-10"/>
+  </elements>
+  <voices interval="2000" chance="100">
+    <voice sentence="Cloysteeer"/>
+  </voices>
+
+</monster>

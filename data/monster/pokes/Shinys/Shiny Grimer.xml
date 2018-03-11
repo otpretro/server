@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<monster name="Shiny Grimer" namedescription="a Shiny Grimer" race="poison" experience="0" speed="155" manacost="0">
+  <health now="600" max="600"/>
+  <look type="487" head="20" body="30" legs="40" feet="50" corpse="123"/>
+	<targetchange interval="8000" chance="0" />
+  <strategy attack="100" defense="0"/>
+
+
+
+    <attacks>
+    <attack name="melee" interval="1800" min="-10" max="-40"/>
+  </attacks>
+
+  <defenses armor="0" defense="0"/>
+
+  <voices interval="5000" chance="10">
+    <voice sentence="GRIMER!"/>
+    <voice sentence="GRII!"/>
+    <voice sentence="MER!"/>
+  </voices>
+  
+</monster>

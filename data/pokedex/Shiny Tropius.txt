@@ -1,0 +1,61 @@
+Pokedex:
+
+---------Informações----------
+--Nome:  Shiny Tropius
+--Level Minimo Necessario: 1
+--Tipo: ( Grass )( Flying )
+
+-Habilidades Especiais:
+--Fly (Voar, use o order em você.)
+--CUT (Cortar Arbustos, use order em pequenas arvores.)
+
+- Evolução
+-- Não Tem. 
+
+-----------Ataques-----------
+- Move 1 [m1]:
+-- Ataque: Razor Leaf
+-- Nível minimo: 0
+-- Tipo do ataque: grass
+
+- Move 2 [m2]:
+-- Ataque: Leech Seed
+-- Nível minimo: 0
+-- Tipo do ataque: grass
+
+- Move 3 [m3]:
+-- Ataque: Vine Whip
+-- Nível minimo: 0
+-- Tipo do ataque: grass
+
+- Move 4 [m4]:
+-- Ataque: Stomp
+-- Nível minimo: 85
+-- Tipo do ataque: normal
+
+- Move 5 [m5]:
+-- Ataque: Wing Attack
+-- Nível minimo: 88
+-- Tipo do ataque: flying
+
+- Move 6 [m6]:
+-- Ataque: Leaf Storm Ball
+-- Nível minimo: 93
+-- Tipo do ataque: grass
+
+- Move 7 [m7]:
+-- Ataque: Epicenter Animation
+-- Nível minimo: 95
+-- Tipo do ataque: ground
+
+- Move 8 [m8]:
+-- Ataque: Tornado
+-- Nível minimo: 105
+-- Tipo do ataque: flying
+
+- Move 9 [m9]:
+-- Ataque: Windstorm
+-- Nível minimo: 120
+-- Tipo do ataque: flying
+
+by PokémonDBR Oficial.

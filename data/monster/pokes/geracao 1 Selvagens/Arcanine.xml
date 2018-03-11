@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Arcanine" nameDescription="a Arcanine" race="fire" experience="2430" speed="300">
+  <health now="22000" max="22000"/>
+  <look type="88" head="20" body="30" legs="40" feet="50" corpse="6031"/>
+
+<targetchange interval="8000" chance="0" />
+<strategy attack="100" defense="10" />
+
+<!--Flags-->
+
+<flags>
+    <flag summonable="1"/>        
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  
+   <script>
+<event name="cabum"/>
+</script>
+
+
+  <attacks>
+    <attack name="melee" interval="2000" skill="30" attack="200"/>
+    <attack name="aurafogo" interval="3000" chance="22" min="-354" max="-468"/>
+    <attack name="aurafogo2" interval="5000" chance="5" min="-354" max="-768"/>
+    <attack name="Flame Strike" interval="3000" chance="5" min="-354" max="-1368"/>
+
+  </attacks>
+
+  <defenses armor="25" defense="30">
+  </defenses>
+  <voices interval="5000" chance="10">
+    <voice sentence="Arcaniine."/>
+    <voice sentence="Aarrr."/>
+  </voices>
+  <loot>
+
+                <item id="2671" chance="16000" count="5" countmax="1"/>
+                <item id="5910" chance="7000" count="5" countmax="1"/>
+                <item id="5894" chance="7000" count="5" countmax="1"/>
+		<item id="5913" chance="5000" count="2" countmax="1"/>
+		<item id="11076"  count="1" countmax="1" chance="200"/>
+		<item id="5468" count="1" countmax="1" chance="500"/>
+		<item id="10819"  count="1" countmax="1" chance="100"/>
+		<item id="2283" count="1" countmax="1" chance="50"/>
+
+  </loot>
+ <script>
+<event name="BlockHit6"></event>
+</script>
+</monster>

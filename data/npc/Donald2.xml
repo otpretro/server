@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npc name="Sammy VIP" script="data/npc/scripts/default.lua" walkinterval="5000" floorchange="0" speed="100" skull="1">
+
+	<health now="150" max="150"/>
+
+	<look type="2334" head="20" body="100" legs="50" feet="99" corpse="0"/>
+
+	<parameters>
+
+		<parameter key="module_shop" value="1"/>
+
+		<parameter key="message_greet" value="Oi |PLAYERNAME|. Eu vendo e compro alguns itens, diga {trade} para ver minhas ofertas."/>
+
+<parameter key="shop_sellable" 
+value="Leaf Stone,2276,1250;
+Water Stone,2277,950;
+Venom Stone,2278,959;
+Thunder Stone,2279,750;
+Rock Stone,2280,950;
+Punch Stone,2281,750;
+Fire Stone,2283,1260;
+Coccon Stone,2284,850;
+Crystal Stone,2285,1090;
+Darkness Stone,2286,1050;
+Earth Stone,2287,950;
+Enigma Stone,2288,950;
+Heart Stone,2289,1060;
+Bol Brown,11082,8;
+Bol Pink,11083,35;
+Bol Yellow,11074,8;
+Pek Blue,11075,8;
+Bol Red,11076,18;
+Bol Black,11077,35;
+Bol Turquoise,11078,27;
+Pek Green,11079,20;
+Pek Purple,11080,17;
+Bol Orange,11081,50;
+Enchanted Small Amethyst,7762,210;
+Enchanted Small Ruby,7760,205;
+Enchanted Small Sapphire,7759,250;
+Brume,10665,15;
+Pedra Blue Lapidada,10818,430;
+Pedra Red Lapidada,10819,650;
+Life Crystal,7242,650;
+Magic Sulphur,6547,80;
+Violet Sulphur,6548,75;
+Green Sulphur,6549,90;
+Magmar Dust,6550,110;
+Regice Dust,6551,250;
+Easily Inflammable Sulphur,8204,150;
+Anciente Amulet,2142,2000;
+Hook,6097,1000;
+Moss Bag,2136,55;
+Casco,6126,10;
+Giant Hair,4843,40;
+Pot Poison,2328,4;
+Tortoise Egg,6125,15;
+Hydra Egg,4850,190;
+Tooth Heal,6500,80;
+Amulet Walloween,8266,150000;
+Bag Violet,5930,8;
+Red Scale,7314,2000;
+Mead Horn,7141,5000;
+Fire Bug,5468,255;
+Dragon Tooth,5910,6;
+dragon baby tooth,5912,7;
+fish tail,5951,8;
+marijuana,5953,600000;
+grama,5954,2;
+asa scyther,5944,50;
+entei heart,5943,10000;
+moss bug,5914,4;
+red moss bug,5913,4;
+icicle,4848,120;
+asa de um zapdos,2131,15000;
+calda pikachu,11090,50;
+white bol,11266,5;
+calda arbok,11305,110;
+casco magneton,11340,15;
+asa venomoth,11316,300;
+moss bug blue,11276,15;
+stone wing,11189,145;
+moltres feather,2132,15000;
+mulberry,5925,8;
+magikarp orchid,5922,15;
+heaven blossom,5921,30;
+colher,5920,4;
+mew sicle,5905,7000;
+magic sulphur,5904,150;
+imman,5902,11;
+stone orb,5901,3;
+beard,5900,11;
+turtle shell,5899,3;
+cap uid,5898,90;
+white wing infeite,5895,20;
+hull fire,5894,2;
+box eletric,5893,5;
+tail,5891,5;
+tooth dragon,5890,2;
+remain of magikarp,2687,25;
+moldy cheese,2235,3;
+soul orb,5896,8;
+eaten apple,5876,4;
+bag flop,5877,6;
+wing bat,5878,3;
+hair tangela,5879,10;
+bone,5880,2;
+spoons,5882,2;
+cabbage,5883,35;
+foot crab,5886,10;
+radish,5887,8;
+sheet,5888,6;
+tail,5889,12;
+articuno feather,2130,15000;
+cebolinha,11095,10;
+calda serpent,11245,80;
+violet bag,11306,7;
+aplete,11341,22;
+amulet violet,11278,7;
+lasca,11137,6;
+pelo dewgong,11087,15;
+murisoca,9441,20;
+rabanete,9460,5;
+bolo de banana,9461,7;
+repolho,9462,8;
+gengibre,9463,8;
+pe de muleque,9464,50;
+broto moranga,9465,30;
+noses,9467,5;
+egg quebrando,9468,12;
+beringela,9469,15;
+coconut,2678,5;
+Rare candy,6569,12;
+blood herb,2798,10000;
+piece ghost,7158,30;
+green perch,7159,2;
+scarab coin,2159,4200;
+strange symbol,2319,1500;
+brooch,2318,1000;
+folhas,2139,3;
+future orbs,8869,7;
+psychic spoons,8870,15;
+seed,8850,2;
+pair of leaves,8851,3;
+bag of polem,8852,5;
+snowballs,2111,2;
+ice cube,7441,150;
+Abobora Halloween, 12701, 250;
+Magical Watch, 8187, 30000;"/>
+<parameter key="shop_buyable" 
+value="Poke Ball,2147,4;
+Hyper Potion,2272,15;
+Crystalline Potion,2144,22;
+Great Ball,2642,6;
+Super Ball,2645,10;
+Ultra Ball,2146,25;
+Poke bag,1994,25;"/>
+	</parameters>
+
+</npc>

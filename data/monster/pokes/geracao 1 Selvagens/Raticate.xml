@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Raticate" nameDescription="a Raticate" race="normal" experience="1215" speed="189" manacost="320">
+<health now="1200" max="1200"/>
+<look type="69" corpse="6007"/>
+
+<targetchange interval="8000" chance="0" />
+<strategy attack="100" defense="10" />
+
+<!--Flags-->
+
+<flags>
+    <flag summonable="1"/>        
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  
+   <script>
+<event name="cabum"/>
+</script>
+
+<attacks>		
+	<attack name="melee" interval="1550" min="-65" max="-90"/>
+</attacks>
+
+<defenses armor="0" defense="0"/>
+  <voices interval="5000" chance="10">
+    <voice sentence="RATICATE!"/>
+    <voice sentence="RAATICATEE!"/>
+  </voices>
+<loot>
+
+		<item id="2789"  count="1" countmax="1" chance="10000"/>
+		<item id="5877" count="1" countmax="1" chance="1000"/>
+		<item id="5888"  count="1" countmax="1" chance="3400"/>
+		<item id="2289" count="1" countmax="1" chance="50"/>
+		<item id="2289"  count="1" countmax="1" chance="100"/>
+		<item id="2689"  count="2" countmax="1" chance="150"/>
+		<item id="11266"  count="1" countmax="1" chance="2000"/>
+		<item id="5876"  count="1" countmax="1" chance="7000"/>
+</loot>
+ <script>
+<event name="BlockHit6"></event>
+</script>
+
+</monster>

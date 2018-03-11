@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Tropius" nameDescription="a Tropius" race="grass" experience="0" speed="260" manacost="280">
+  <health now="15000" max="15000"/>
+  <look type="789" head="20" body="30" legs="40" feet="50" corpse="9350"/>
+
+<targetchange interval="8000" chance="0" />
+<strategy attack="100" defense="80" />
+
+<!--Flags-->
+
+<flags>
+    <flag summonable="1"/>        
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+
+  <attacks>
+    <attack name="melee" interval="2000" skill="55" attack="50"/>
+  </attacks>
+  <defenses armor="100" defense="70"/>
+  
+  <voices interval="2000" chance="60">
+    <voice sentence="tropius"/>
+  </voices>
+
+<elements>
+	<element physicalPercent="-20"/>
+        <element earthPercent="30"/>
+	<element energyPercent="20"/>
+	<element icePercent="-50"/>
+	<element deathPercent="5"/>
+	<element firePercent="-40"/>
+	<element holyPercent="50"/>
+	<element poisonPercent="-40"/>
+	<element drownPercent="20"/>
+</elements>
+
+</monster>

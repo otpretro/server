@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Furret" nameDescription="a Furret" race="undead" experience="80" speed="258" manacost="320">
+  <health now="4200" max="4200"/>
+  <look type="531" head="20" body="30" legs="40" feet="50" corpse="8797"/>
+	<targetchange interval="100" chance="0"/>
+  <strategy attack="100" defense="0"/>
+
+<flags>
+<flag summonable="1"/>
+<flag convinceable="1"/>
+<flag canpushitems="1"/>
+<flag canpushcreatures="1"/>
+<flag hostile="1"/>
+<flag attackable="1"/>
+<flag pushable="0"/>
+<flag staticattack="98"/>
+<flag targetdistance="1"/>
+<flag walkable="1"/>
+<flag runonhealth="1"/>
+<flag skull="3"/>
+</flags>
+
+    <attacks>
+    <attack name="melee" interval="1800" min="-10" max="-40"/>
+  </attacks>
+
+  <defenses armor="6" defense="10"/>
+  <voices interval="2000" chance="10">
+    <voice sentence="furrett!"/>
+  </voices>
+ 
+</monster>

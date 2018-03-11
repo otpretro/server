@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Hitmonchan" nameDescription="a Hitmonchan" race="fight" experience="4250" speed="280" manacost="0">
+<health now="13500" max="13500"/>
+<look type="1931" corpse="5977"/>
+
+
+<targetchange interval="8000" chance="0" />
+<strategy attack="100" defense="10" />
+
+<!--Flags-->
+
+<flags>
+    <flag summonable="1"/>        
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  
+   <script>
+<event name="cabum"/>
+</script>
+	
+<attacks>
+        <attack name="melee" interval="2000" chance="100" range="1" min="-200" max="-550"/>
+      <attack name="auralutador" interval="4750" min="-5" max="-310"/>
+		
+</attacks>
+
+
+<defenses armor="20" defense="20">				
+</defenses>
+	
+<elements>
+		
+<element earthPercent="100"/>
+		
+<element energyPercent="20"/>
+		
+<element icePercent="20"/>
+		
+<element firePercent="-10"/>
+	
+</elements>
+	
+<immunities>
+		
+<immunity lifedrain="0"/>
+		
+<immunity paralyze="0"/>
+		
+<immunity outfit="1"/>
+		
+<immunity drunk="1"/>
+		
+<immunity invisible="1"/>
+	
+</immunities>
+  <loot>
+		<item id="5898" chance="160" count="1" countmax="1"/>
+		<item id="9464"  count="1" countmax="1" chance="50"/>
+		<item id="11078" count="2" countmax="1" chance="150"/>
+		<item id="2281"  count="1" countmax="1" chance="50"/>
+		<item id="5877" count="2" countmax="1" chance="5000"/>
+		<item id="2691"  count="4" countmax="1" chance="1100"/>
+
+  </loot>
+ <script>
+<event name="BlockHit6"></event>
+</script>
+</monster>

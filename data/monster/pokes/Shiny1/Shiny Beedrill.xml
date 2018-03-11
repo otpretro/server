@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<monster name="Shiny Beedrill" namedescription="a Shiny Beedrill" race="bug" experience="0" speed="182" manacost="250">
+  <health now="1900" max="1900"/>
+  <look type="483" head="20" body="30" legs="40" feet="50" corpse="5990"/>
+
+
+<targetchange interval="8000" chance="0" />
+<strategy attack="100" defense="10" />
+
+<!--Flags-->
+
+<flags>
+    <flag summonable="1"/>        
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+
+  <attacks>
+    <attack name="melee" interval="1800" min="-10" max="-50"/>
+  </attacks>
+
+	<defenses armor="5" defense="5">
+  </defenses>
+
+  <voices interval="2000" chance="100">
+    <voice sentence="BEE"/>
+    <voice sentence="BEEDRILL"/>
+    <voice sentence="DRILL"/>
+  </voices>
+
+</monster>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Tropius" nameDescription="a Tropius" race="grass" experience="14600" speed="260" manacost="280">
+  <health now="15000" max="15000"/>
+  <look type="789" head="20" body="30" legs="40" feet="50" corpse="9350"/>
+
+<targetchange interval="8000" chance="0" />
+<strategy attack="100" defense="10" />
+
+<!--Flags-->
+
+<flags>
+    <flag summonable="1"/>        
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  
+   <script>
+<event name="cabum"/>
+</script>
+
+
+  <attacks>
+    <attack name="melee" interval="2000" skill="25" attack="380"/>
+    <attack name="auraplanta2" interval="2000" chance="5" min="-100" max="-800"> </attack>
+    <attack name="auraplanta3" interval="2000" chance="5" min="-100" max="-1400"> </attack>
+    <attack name="auraplanta4" interval="2000" chance="5" min="-100" max="-2400"> </attack>
+
+  </attacks>
+
+
+  <defenses armor="4" defense="8"/>
+
+<elements>
+	<element physicalPercent="60"/>
+        <element earthPercent="50"/>
+	<element energyPercent="20"/>
+	<element icePercent="-4"/>
+	<element deathPercent="10"/>
+	<element firePercent="-25"/>
+	<element holyPercent="-25"/>
+	<element poisonPercent="5"/>
+	<element drownPercent="50"/>
+</elements>
+
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="1"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="0"/>
+    <immunity drunk="1"/>
+    <immunity invisible="0"/>
+  </immunities>
+  <voices interval="4000" chance="100">
+    <voice sentence="piusssss!"/>
+  </voices>
+  <loot>
+
+		<item id="5954" chance="10000" count="5" countmax="1"/>
+		<item id="2111"  count="2" countmax="1" chance="5000"/>
+		<item id="5883" count="1" countmax="1" chance="1000"/>
+		<item id="6549"  count="1" countmax="1" chance="100"/>
+		<item id="2276" count="1" countmax="1" chance="50"/>
+		<item id="11079"  count="1" countmax="1" chance="110"/>
+		<item id="5914"  count="2" countmax="1" chance="3000"/>
+		<item id="11095"  count="1" countmax="1" chance="2000"/>
+		<item id="5887"  count="1" countmax="1" chance="10000"/>
+		<item id="9460"  count="2" countmax="1" chance="3000"/>
+		<item id="6544"  count="10" countmax="1" chance="10000"/>
+		<item id="9462" count="1" countmax="1" chance="3000"/>
+
+  </loot>
+ <script>
+<event name="BlockHit6"></event>
+</script>
+</monster>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Pikachu" nameDescription="a Pikachu" race="electr" experience="1150" speed="230" manacost="640">
+  <health now="2900" max="2900"/>
+  <look type="59" head="20" body="30" legs="40" feet="50" corpse="6001"/>
+
+<targetchange interval="8000" chance="0" />
+<strategy attack="100" defense="10" />
+
+<!--Flags-->
+
+<flags>
+    <flag summonable="1"/>        
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  
+   <script>
+<event name="cabum"/>
+</script>
+
+
+  <attacks>
+    <attack name="melee" interval="1000" skill="30" attack="80"/>
+   <attack name="auraeletrica2" interval="6900" chance="100" range="3" min="-1" max="-151"/>
+  </attacks>
+
+  <defenses armor="20" defense="30"/>
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Pikachu!"/>
+  </voices>
+
+  <loot>
+		<item id="5893" chance="10000" count="2" countmax="1"/>
+		<item id="2667"  count="5" countmax="1" chance="500"/>
+		<item id="8204" count="2" countmax="1" chance="200"/>
+		<item id="11081"  count="1" countmax="1" chance="100"/>
+		<item id="2279" count="1" countmax="1" chance="50"/>
+		<item id="11090"  count="2" countmax="1" chance="150"/>
+
+
+  </loot>
+ <script>
+<event name="BlockHit6"></event>
+</script>
+</monster>

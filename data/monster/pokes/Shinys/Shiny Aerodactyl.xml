@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<monster name="Shiny Aerodactyl" namedescription="a Shiny Aerodactyl" race="rock" experience="0" speed="210" manacost="250">
+  <health now="7100" max="7100"/>
+  <look type="3599" head="20" body="30" legs="40" feet="50" corpse="12670"/>
+	<targetchange interval="8000" chance="0" />
+  <strategy attack="100" defense="60"/>
+
+  <flags>
+    <flag summonable="1"/>        
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+
+  <attacks>
+    <attack name="melee" interval="2000" min="-50" max="-200"/>
+  </attacks>
+
+<elements>
+	<element physicalPercent="50"/>
+        <element earthPercent="50"/>
+	<element energyPercent="40"/>
+	<element icePercent="-5"/>
+	<element deathPercent="50"/>
+	<element firePercent="50"/>
+	<element holyPercent="-5"/>
+	<element poisonPercent="50"/>
+	<element drownPercent="-5"/>
+</elements>
+
+
+  <defenses armor="90" defense="60"/>
+  <voices interval="2000" chance="70">
+    <voice sentence="AERODACTYL!"/>
+    <voice sentence="AERO!"/>
+  </voices>
+  <loot>
+  </loot>
+</monster>

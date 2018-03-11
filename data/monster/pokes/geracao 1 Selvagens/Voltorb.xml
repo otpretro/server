@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Voltorb" nameDescription="a Voltorb" race="electr" experience="904" speed="150" manacost="300">
+  <health now="1620" max="1620"/>
+  <look type="123" head="20" body="30" legs="40" feet="50" corpse="6049"/>
+
+<targetchange interval="5000" chance="8" />
+<strategy attack="100" defense="10" />
+
+<!--Flags-->
+
+<flags>
+    <flag summonable="1"/>        
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  
+   <script>
+<event name="cabum"/>
+</script>
+
+  <attacks>
+    <attack name="melee" interval="1900" range="1" min="-38" max="-56"/>
+    <attack name="auraeletrica4" interval="6900" chance="100" range="3" min="-1" max="-120"/>
+  </attacks>
+
+  <defenses armor="0" defense="0"/>
+  <voices interval="5000" chance="10">
+    <voice sentence="VOLTORB!"/>
+    <voice sentence="TORB!"/>
+    <voice sentence="VOL!"/>
+  </voices>
+  <loot>
+
+		<item id="5893" chance="10000" count="2" countmax="1"/>
+		<item id="2667"  count="5" countmax="1" chance="500"/>
+		<item id="8204" count="2" countmax="1" chance="200"/>
+		<item id="11081"  count="1" countmax="1" chance="100"/>
+		<item id="2279" count="1" countmax="1" chance="50"/>
+
+
+  </loot>
+
+ <script>
+<event name="BlockHit6"></event>
+</script>
+</monster>

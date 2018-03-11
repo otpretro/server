@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Metang" nameDescription="a metang" race="steel" experience="0" speed="240" manacost="0">
+  <health now="9000" max="9000"/>
+  <look type="825" head="113" body="57" legs="95" feet="113" corpse="9387"/>
+
+<targetchange interval="8000" chance="0" />
+<strategy attack="100" defense="10" />
+
+<!--Flags-->
+
+<flags>
+    <flag summonable="1"/>        
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+  <attacks>
+<attack name="melee" interval="2000" min="-50" max="-70"/>
+    <attack name="aurapsiquica" interval="1000" chance="40" min="-10" max="-80"> </attack>
+  </attacks>
+
+  <defenses armor="0" defense="100">
+  </defenses>
+
+
+  <voices interval="5000" chance="10">
+	<voice sentence="tang!"/>
+    <voice sentence="meeetang!"/>
+  </voices>
+  <loot>
+        <item id="5882" chance="9000" count="5" countmax="1"/>
+        <item id="5902" chance="7000" count="1" countmax="1"/>
+        <item id="5920" chance="3000" count="1" countmax="1"/>
+        <item id="2288" chance="50" count="1" countmax="1"/>
+        <item id="11074" chance="100" count="1" countmax="1"/>
+        <item id="8204" chance="100" count="1" countmax="1"/>
+
+  </loot>
+</monster>

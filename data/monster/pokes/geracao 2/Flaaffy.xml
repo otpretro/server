@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+ <monster name="Flaaffy" nameDescription="a Flaaffy" race="undead" experience="80" speed="180" manacost="300">
+  <health now="1520" max="1520" /> 
+  <look type="671" head="0" body="0" legs="0" feet="0" corpse="8795" /> 
+	<targetchange interval="5000" chance="0"/>
+  <strategy attack="100" defense="0" /> 
+
+<flags>
+<flag summonable="1"/>
+<flag convinceable="1"/>
+<flag canpushitems="1"/>
+<flag canpushcreatures="1"/>
+<flag hostile="1"/>
+<flag attackable="1"/>
+<flag pushable="0"/>
+<flag staticattack="98"/>
+<flag targetdistance="1"/>
+<flag walkable="1"/>
+<flag runonhealth="1"/>
+<flag skull="3"/>
+</flags>
+
+ <attacks>
+    <attack name="melee" interval="1800" min="-22" max="-79"/>
+    
+  </attacks>
+
+
+  <voices interval="2000" chance="10">
+    <voice sentence="Flaaffy!"/>
+    <voice sentence="Flaaffy!"/>
+  </voices>
+
+</monster>

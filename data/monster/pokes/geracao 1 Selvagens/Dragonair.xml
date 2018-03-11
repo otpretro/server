@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Dragonair" nameDescription="a Dragonair" race="dragon" experience="4160" speed="200" manacost="290">
+  <health now="16000" max="16000"/>
+  <look type="61" head="20" body="30" legs="40" feet="50" corpse="6002"/>
+	
+<targetchange interval="8000" chance="0" />
+<strategy attack="100" defense="10" />
+
+<!--Flags-->
+
+<flags>
+    <flag summonable="1"/>        
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  
+   <script>
+<event name="cabum"/>
+</script>
+
+
+  <attacks>
+    <attack name="melee" interval="2000" skill="35" attack="30"/>
+        <attack name="auragelo3" interval="2000" skill="35" attack="300"/>
+    
+
+
+  </attacks>
+  <defenses armor="6" defense="8"/>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="0"/>
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="Dragonair!"/>
+  </voices>
+  <loot>
+		<item id="4848" chance="160" count="1" countmax="1"/>
+		<item id="10819"  count="1" countmax="1" chance="50"/>
+		<item id="2285" count="2" countmax="1" chance="50"/>
+		<item id="6569"  count="2" countmax="1" chance="5000"/>
+		<item id="5910" count="2" countmax="1" chance="3000"/>
+		<item id="2691"  count="4" countmax="1" chance="5100"/>
+
+  </loot>
+ <script>
+<event name="BlockHit6"></event>
+</script>
+
+</monster>

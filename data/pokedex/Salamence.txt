@@ -1,0 +1,63 @@
+Pokedex:
+
+--Nome:  Salamence
+--Level Minimo Necessario: 90
+--Tipo: ( Dragon )( Flying )
+
+-Habilidades Especiais:
+--Fly (Voar, use o order em voce.)
+
+- Evolução
+-- Não Tem. 
+
+-----------Ataques-----------
+- Move 1 [m1]:
+-- Ataque: Slam
+-- Nível minimo: 0
+-- Tipo do ataque: normal
+
+- Move 2 [m2]:
+-- Ataque: Headbutt
+-- Nível minimo: 0
+-- Tipo do ataque: dark
+
+- Move 3 [m3]:
+-- Ataque: Iron Tail
+-- Nível minimo: 0
+-- Tipo do ataque: steel
+
+- Move 4 [m4]:
+-- Ataque: Flamethrower
+-- Nível minimo: 25
+-- Tipo do ataque: fire
+
+- Move 5 [m5]:
+-- Ataque: Dragon Pulse
+-- Nível minimo: 28
+-- Tipo do ataque: dragon
+
+- Move 6 [m6]:
+-- Ataque: Dragon Breath
+-- Nível minimo: 33
+-- Tipo do ataque: dragon
+
+- Move 7 [m7]:
+-- Ataque: Wind Rush
+-- Nível minimo: 62
+-- Tipo do ataque: flying
+
+- Move 8 [m8]:
+-- Ataque: Dragon Dance
+-- Nível minimo: 90
+-- Tipo do ataque: Dragon
+
+- Move 9 [m9]:
+-- Ataque: Wing Attack
+-- Nível minimo: 100
+-- Tipo do ataque: Dragon
+
+- Move 10 [m10]:
+-- Ataque: Hyper Beam
+-- Nível minimo: 120
+-- Tipo do ataque: flying
+

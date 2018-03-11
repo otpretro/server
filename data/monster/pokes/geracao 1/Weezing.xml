@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Weezing" nameDescription="a Weezing" race="poison" experience="0" speed="460" manacost="280">
+  <health now="2800" max="2800"/>
+  <look type="231" head="20" body="30" legs="40" feet="50" corpse="6306"/>
+
+<targetchange interval="8000" chance="0" />
+<strategy attack="100" defense="10" />
+
+<!--Flags-->
+
+<flags>
+    <flag summonable="1"/>        
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+    <attacks>
+    <attack name="melee" interval="1800" min="-10" max="-50"/>
+  </attacks>
+
+  <defenses armor="4" defense="8"/>
+
+
+  <voices interval="2000" chance="100">
+    <voice sentence="Weezing"/>
+  </voices>
+
+</monster>

@@ -1,0 +1,24 @@
+Nome: Abra.
+Tipo: psychic.
+Level requerido: 15.
+
+Evoluções:
+Abra, requires level 15.
+Kadabra - level 45 - 1 Enigma Stone.
+Alakazam - level 80 - 2 Enigma Stone.
+
+Shiny:
+Shiny Abra - level 8 - 3 Shiny Stone.
+
+Moves:
+Confusion (psychic) - m1 - level 15
+Restore (healing) - m2 - level 18
+Psy Pulse (psychic) - m3 - level 20
+Calm Mind (psychic) - m4 - level 27
+
+Habilidade:
+Teleport (type either !teleport or !casa")
+Flash (use order on your pokemon)
+Blink (use order somewhere to teleport)
+
+Description: A Pokemon that sleeps 18 hours a day. Observation revealed that it uses teleport to change its location.

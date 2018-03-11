@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Blissey Christmas M" nameDescription="a Blissey Christmas M" race="normal" experience="0" speed="270" manacost="0">
+  <health now="27500" max="27500"/>
+  <look type="2964" head="20" body="30" legs="40" feet="50" corpse="0"/>
+
+<targetchange interval="8000" chance="0" />
+<strategy attack="100" defense="60" />
+
+<!--Flags-->
+
+<flags>
+    <flag summonable="1"/>        
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+  <attacks>
+    <attack name="melee" interval="2000" min="-202" max="-980"/>
+  </attacks>
+
+
+  <defenses armor="100" defense="60">
+  </defenses>
+
+<elements>
+	<element physicalPercent="-4"/>
+        <element earthPercent="60"/>
+	<element energyPercent="60"/>
+	<element icePercent="60"/>
+	<element deathPercent="60"/>
+	<element firePercent="60"/>
+	<element holyPercent="60"/>
+	<element poisonPercent="60"/>
+	<element drownPercent="60"/>
+</elements>
+
+
+  <voices interval="2000" chance="60">
+    <voice sentence="BLISSEY"/>
+  </voices>
+
+</monster>

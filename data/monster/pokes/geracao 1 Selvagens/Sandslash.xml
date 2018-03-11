@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Sandslash" nameDescription="a Sandslash" race="ground" experience="3321" speed="180" manacost="0">
+  <health now="10400" max="10400"/>
+  <look type="115" head="20" body="30" legs="40" feet="50" corpse="6041"/>
+
+<targetchange interval="8000" chance="0" />
+<strategy attack="100" defense="10" />
+
+<!--Flags-->
+
+<flags>
+    <flag summonable="1"/>        
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  
+   <script>
+<event name="cabum"/>
+</script>
+
+  <attacks>
+    <attack name="melee" interval="1700" min="-101" max="-143"/>
+    
+  </attacks>
+  <defenses armor="0" defense="0">
+  </defenses>
+  <voices interval="5000" chance="10">
+    <voice sentence="SANDSLASH!"/>
+    <voice sentence="SLAASH!"/>
+  </voices>
+  <loot>
+		<item id="5951" chance="10000" count="5" countmax="1"/>
+		<item id="11341"  count="1" countmax="1" chance="500"/>
+		<item id="5900" count="2" countmax="1" chance="1000"/>
+
+		<item id="11077"  count="1" countmax="1" chance="100"/>
+		<item id="2287" count="1" countmax="1" chance="50"/>
+
+		<item id="5877"  count="3" countmax="1" chance="110"/>
+		<item id="5880"  count="2" countmax="1" chance="150"/>
+		<item id="7242"  count="1" countmax="1" chance="400"/>
+                <item id="2678"  count="1" countmax="1" chance="400"/>
+
+  </loot>
+ <script>
+<event name="BlockHit6"></event>
+</script>
+</monster>

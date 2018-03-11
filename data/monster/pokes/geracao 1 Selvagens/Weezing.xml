@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Weezing" nameDescription="a Weezing" race="poison" experience="3560" speed="190" manacost="280">
+  <health now="12800" max="12800"/>
+  <look type="231" head="20" body="30" legs="40" feet="50" corpse="6306"/>
+
+<targetchange interval="8000" chance="0" />
+<strategy attack="100" defense="10" />
+
+<!--Flags-->
+
+<flags>
+    <flag summonable="1"/>        
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  
+   <script>
+<event name="cabum"/>
+</script>
+
+  <attacks>
+    <attack name="melee" interval="1500" skill="18" attack="12" poison="2"/>
+   <attack name="auraplanta3" interval="6900" chance="100" range="3" min="-1" max="-300"/>
+  </attacks>
+
+  <defenses armor="4" defense="8"/>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="1"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="0"/>
+  </immunities>
+  <voices interval="5000" chance="100">
+    <voice sentence="Bsssssss"/>
+  </voices>
+  <loot>
+		<item id="11080" chance="50" count="1" countmax="1"/>
+		<item id="2278"  count="1" countmax="1" chance="50"/>
+		<item id="5896" count="2" countmax="1" chance="150"/>
+		<item id="11245"  count="1" countmax="1" chance="250"/>
+		<item id="5878" count="1" countmax="1" chance="5000"/>
+                <item id="5930"  count="5" countmax="1" chance="900"/>
+                <item id="2328"  count="3" countmax="1" chance="900"/>
+  </loot>
+ <script>
+<event name="BlockHit6"></event>
+</script>
+</monster>

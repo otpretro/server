@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vocations>
+	<vocation id="0" name="Treinador None" description="a none" needpremium="0" gaincap="0" gainhp="45" gainmana="0" gainhpticks="6" gainhpamount="10" gainmanaticks="0" gainmanaamount="0" manamultiplier="1.0" attackspeed="2000" soulmax="100" gainsoulticks="60" fromvoc="0" attackable="no">
+		<formula meleeDamage="1.1" distDamage="1.0" wandDamage="1.0" magDamage="1.5" magHealingDamage="1.0" defense="1.0" armor="1.0"/>
+		<skill id="0" multiplier="2.5"/>
+		<skill id="1" multiplier="3.1"/>
+		<skill id="2" multiplier="3.0"/>
+		<skill id="3" multiplier="3.0"/>
+		<skill id="4" multiplier="3.0"/>
+		<skill id="5" multiplier="3.5"/>
+		<skill id="6" multiplier="1.1"/>
+	</vocation>
+	<vocation id="1" name="Treinador" description="a Treinador" needpremium="0" gaincap="0" gainhp="65" gainmana="0" gainhpticks="5" gainhpamount="25" gainmanaticks="0" gainmanaamount="0" manamultiplier="1.5" attackspeed="2000" soulmax="200" gainsoulticks="60" fromvoc="1" lessloss="10">
+		<formula meleeDamage="1.1" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" armor="1.0"/>
+		<skill id="0" multiplier="2.7"/>
+		<skill id="1" multiplier="3.5"/>
+		<skill id="2" multiplier="3.5"/>
+		<skill id="3" multiplier="3.5"/>
+		<skill id="4" multiplier="3.5"/>
+		<skill id="5" multiplier="3.5"/>
+		<skill id="6" multiplier="1.1"/>
+	</vocation>
+	<vocation id="2" name="Treinador" description="a Treinador VIP" needpremium="1" gaincap="0" gainhp="65" gainmana="0" gainhpticks="5" gainhpamount="35" gainmanaticks="0" gainmanaamount="0" manamultiplier="2.0" attackspeed="2000" soulmax="400" gainsoulticks="60" fromvoc="2" lessloss="10">
+		<formula meleeDamage="1.1" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" armor="1.0"/>
+		<skill id="0" multiplier="2.7"/>
+		<skill id="1" multiplier="3.5"/>
+		<skill id="2" multiplier="3.5"/>
+		<skill id="3" multiplier="3.5"/>
+		<skill id="4" multiplier="3.5"/>
+		<skill id="5" multiplier="3.5"/>
+		<skill id="6" multiplier="1.2"/>
+	</vocation>
+</vocations>

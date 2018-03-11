@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Jynx" nameDescription="a Shiny Jynx" race="ice" experience="0" speed="250" manacost="290">
+  <health now="7000" max="7000"/>
+  <look type="1998" head="20" body="30" legs="40" feet="50" corpse="129"/>
+	<targetchange interval="8000" chance="0" />
+  <strategy attack="100" defense="0"/>
+
+
+    <attacks>
+    <attack name="melee" interval="1800" min="-10" max="-40"/>
+  </attacks>
+
+  <defenses armor="6" defense="8"/>
+
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Jynx!!"/>
+  </voices>
+
+</monster>

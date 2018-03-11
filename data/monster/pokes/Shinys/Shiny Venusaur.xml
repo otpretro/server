@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Venusaur" nameDescription="a Shiny Venusaur" race="grass" experience="2300" speed="200" manacost="490">
+  <health now="5200" max="5200"/>
+  <look type="1995" head="0" body="0" legs="0" feet="0" corpse="135"/>
+
+	<targetchange interval="8000" chance="0" />
+  <strategy attack="100" defense="0"/>
+
+  <flags>
+    <flag summonable="1"/>        
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+      <attacks>
+    <attack name="melee" interval="1800" min="-10" max="-50"/>
+  </attacks>
+  
+  <defenses armor="15" defense="15"/>
+  
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Venosaur!"/>
+    <voice sentence="Saur."/>
+  </voices>
+
+  
+</monster>

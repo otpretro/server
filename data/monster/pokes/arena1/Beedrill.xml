@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<monster name="Boss Beedrill" namedescription="a boss beedrill" race="bug" experience="10" speed="182">
+  <health now="3900" max="3900"/>
+  <look type="45" head="20" body="30" legs="40" feet="50" corpse="0"/>
+
+
+<targetchange interval="8000" chance="0" />
+<strategy attack="100" defense="10" />
+
+<!--Flags-->
+
+<flags>
+    <flag summonable="1"/>        
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+ 
+
+
+  <attacks>
+    <attack name="melee" interval="1000" range="1" min="-67" max="-400"/>
+
+<attack name="auraveneno3" interval="1700" chance="100" min="-70" max="-148"/>
+<attack name="auraveneno" interval="2000" chance="100" min="-70" max="-158"/>
+  </attacks>
+	<defenses armor="15" defense="5">
+  </defenses>
+  <voices interval="2000" chance="100">
+    <voice sentence="BEE"/>
+    <voice sentence="BEEDRILL"/>
+    <voice sentence="DRILL"/>
+  </voices>
+  <loot>
+		<item id="2284" chance="50" count="1" countmax="1"/>
+		<item id="2787"  count="3" countmax="1" chance="9800"/>
+		<item id="5914" count="2" countmax="1" chance="1000"/>
+		<item id="9460"  count="1" countmax="1" chance="4100"/>
+		<item id="11082" count="1" countmax="1" chance="50"/>
+
+  </loot>
+<script>
+<event name="tp"/>
+</script>
+ <script>
+<event name="BlockHit6"></event>
+</script>
+</monster>

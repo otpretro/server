@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Graveler" nameDescription="a Graveler" race="rock" experience="3700" speed="179" manacost="0">
+  <health now="9000" max="9000"/>
+  <look type="247" corpse="6516"/>
+
+<targetchange interval="8000" chance="0" />
+<strategy attack="100" defense="10" />
+
+<!--Flags-->
+
+<flags>
+    <flag summonable="1"/>        
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  
+   <script>
+<event name="cabum"/>
+</script>
+
+  <attacks>
+    <attack name="melee" interval="1800" min="-85" max="-225"/>
+      <attack name="aurapedra3" interval="4750" min="-5" max="-430"/>
+    
+</attacks>
+  <defenses armor="0" defense="0">
+  </defenses>
+  <voices interval="5000" chance="10">
+    <voice sentence="GRAVELER!"/>
+    <voice sentence="GRAVE!"/>
+    <voice sentence="LER!"/>
+  </voices>
+
+  <loot>
+		<item id="11079" chance="50" count="1" countmax="1"/>
+		<item id="2136"  count="2" countmax="1" chance="7800"/>
+		<item id="6125" count="2" countmax="1" chance="1000"/>
+		<item id="5896"  count="5" countmax="1" chance="4100"/>
+		<item id="5896" count="1" countmax="1" chance="5000"/>
+		<item id="11266"  count="3" countmax="1" chance="110"/>
+		<item id="5899"  count="2" countmax="1" chance="150"/>
+		<item id="2280"  count="1" countmax="1" chance="50"/>
+                <item id="2678"  count="1" countmax="1" chance="400"/>
+                <item id="2280"  count="1" countmax="1" chance="50"/>
+
+  </loot>
+ <script>
+<event name="BlockHit6"></event>
+</script>
+</monster>

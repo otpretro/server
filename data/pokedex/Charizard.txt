@@ -1,0 +1,28 @@
+Nome: Charizard.
+Tipo: Fogo.
+Level requerido: 8.
+
+Evoluções:
+não tem.
+
+pode ser Shiny:
+Elder Charizard - level 8 - 7 Shiny Stone.
+
+
+Moves: 
+Dragon Claw - m1 - level 85 - dragon
+Ember - m2 - level 85 - fire
+Flamethrower - m3 - level 85 - fire
+Fireball - m4 - level 85 - fire
+Fire Fang - m5 - level 85 - fire
+Raging Blast - m6 - level 85 - fire
+Fire Blast - m7 - level 85 - fire
+Wing Attack - m8 - level 90 - flying
+Magma Storm - m9 - level 95 - fire
+Rage - m10 - level 85 - dragon
+
+Habilidade:
+Cut
+Fly
+
+By PokémonDBR Oficial

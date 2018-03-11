@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Electrode" nameDescription="a Electrode" race="electr" experience="1879" speed="183" manacost="420">
+  <health now="13000" max="13000"/>
+  <look type="125" head="20" body="30" legs="40" feet="50" corpse="6051"/>
+
+<targetchange interval="8000" chance="0" />
+<strategy attack="100" defense="16" />
+
+<!--Flags-->
+
+<flags>
+    <flag summonable="1"/>        
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  
+   <script>
+<event name="cabum"/>
+</script>
+
+  <attacks>
+    <attack name="melee" interval="1800" range="1" min="-78" max="-86"/>
+    <attack name="auraeletrica4" range="3" interval="1000" chance="100" min="-115" max="-129">
+    </attack>
+  </attacks>
+  <defenses armor="0" defense="0"/>
+  <voices interval="5000" chance="10">
+    <voice sentence="ELECTRODE!"/>
+    <voice sentence="TRODE!"/>
+    <voice sentence="ELEC!"/>
+  </voices>
+  <loot>
+		<item id="5893" chance="10000" count="2" countmax="1"/>
+		<item id="2667"  count="5" countmax="1" chance="500"/>
+		<item id="8204" count="2" countmax="1" chance="200"/>
+		<item id="11081"  count="1" countmax="1" chance="100"/>
+		<item id="2279" count="1" countmax="1" chance="50"/>
+
+
+  </loot>
+ <script>
+<event name="BlockHit6"></event>
+</script>
+</monster>

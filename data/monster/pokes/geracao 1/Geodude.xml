@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Geodude" nameDescription="a geodude" race="rock" experience="0" speed="161" manacost="0">
+  <health now="700" max="700"/>
+  <look type="196" head="0" body="0" legs="0" feet="0" corpse="5566"/>
+
+<targetchange interval="8000" chance="0" />
+<strategy attack="100" defense="10" />
+
+<!--Flags-->
+
+<flags>
+    <flag summonable="1"/>        
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+    <attacks>
+    <attack name="melee" interval="1800" min="-10" max="-40"/>
+  </attacks>
+
+  <defenses armor="0" defense="2">
+  </defenses>
+
+  <voices interval="2000" chance="100">
+    <voice sentence="GEO"/>
+    <voice sentence="GEODUDE"/>
+    <voice sentence="DUDE"/>
+  </voices>
+  
+</monster>

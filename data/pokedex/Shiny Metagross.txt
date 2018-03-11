@@ -1,0 +1,65 @@
+Pokedex:
+
+---------Informações----------
+--Nome:  Shiny Metagross
+--Level Minimo Necessario: 8
+--Tipo: ( Psychic )( Steel )
+
+-Habilidades Especiais:
+--Ride (Montaria, use order em você.)
+--Rock Smash (Quebra Pedras, use o order na pedra.)
+--DIG (Abre Buracos, use o order no buraco(hole).)
+--Light (Luz, use order em seu pokémon para iluminar.)
+
+- Evolução
+-- Não Tem. 
+
+-----------Ataques-----------
+- Move 1 [m1]:
+-- Ataque: Tackle
+-- Nível minimo: 0
+-- Tipo do ataque: normal
+
+- Move 2 [m2]:
+-- Ataque: Psychic
+-- Nível minimo: 0
+-- Tipo do ataque: psychic
+
+- Move 3 [m3]:
+-- Ataque: Confusion
+-- Nível minimo: 0
+-- Tipo do ataque: psychic
+
+- Move 4 [m4]:
+-- Ataque: Headbutt
+-- Nível minimo: 20
+-- Tipo do ataque: normal
+
+- Move 5 [m5]:
+-- Ataque: Meteor Mash
+-- Nível minimo: 25
+-- Tipo do ataque: steel
+
+- Move 6 [m6]:
+-- Ataque: Thunder
+-- Nível minimo: 45
+-- Tipo do ataque: eletric
+
+- Move 7 [m7]:
+-- Ataque: Hyper Beam
+-- Nível minimo: 50
+-- Tipo do ataque: normal
+
+- Move 8 [m8]:
+-- Ataque: Earthquake
+-- Nível minimo: 82
+-- Tipo do ataque: ground
+- Move 9 [m9]:
+-- Ataque: Restore
+-- Nível minimo: 85
+-- Tipo do ataque: psychic
+
+- Move 10 [m10]:
+-- Ataque: Future Sight
+-- Nível minimo: 120
+-- Tipo do ataque: psychic

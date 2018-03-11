@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Moltres" nameDescription="a Moltres" race="fire" experience="91000" speed="220" manacost="0">
+  <health now="700000" max="700000"/>
+  <look type="265" head="20" body="30" legs="40" feet="50" corpse="7330"/>
+
+<targetchange interval="8000" chance="0" />
+<strategy attack="100" defense="10" />
+
+<!--Flags-->
+
+<flags>
+    <flag summonable="1"/>        
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  
+   <script>
+<event name="cabum"/>
+</script>
+
+  <attacks>
+
+
+    <attack name="fire blast" interval="2000" min="-100" max="-300"/>
+    <attack name="magma storm" interval="5000" chance="50" range="15" min="-100" max="-900">
+      <attribute key="shootEffect" value="fire"/>
+    </attack>
+</attacks>
+
+  <defenses armor="15" defense="15">
+    <defense name="healing" interval="1000" chance="20" min="1000" max="2000">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+    </defenses>
+
+    <elements>
+  <element firePercent="25"/>
+    <element earthPercent="40"/>
+	  <element energyPercent="60"/>
+		    <element icePercent="-10"/>
+	</elements>
+  <immunities>
+    <immunity invisible="1"/>
+  </immunities>
+  <voices interval="5000" chance="100">
+    <voice sentence="I grant you a deathwish!"/>
+    <voice sentence="Muhahahaha!"/>
+    <voice sentence="I wish you a merry trip to hell!"/>
+    <voice sentence="Tell me your last wish!"/>
+    <voice sentence="Good wishes are for fairytales"/>
+  </voices>
+ <script>
+<event name="BlockHit6"></event>
+</script>
+</monster>

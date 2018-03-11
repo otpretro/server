@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Magneton" nameDescription="a Magneton" race="electr" experience="2165" speed="170" manacost="250">
+  <health now="3750" max="3750"/>
+  <look type="223" head="20" body="30" legs="40" feet="50" corpse="6076"/>
+
+<targetchange interval="8000" chance="0" />
+<strategy attack="100" defense="10" />
+
+<!--Flags-->
+
+<flags>
+    <flag summonable="1"/>        
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  
+   <script>
+<event name="cabum"/>
+</script>
+
+<attacks>
+	<attack name="melee" interval="1800" chance="100" range="4" min="-65" max="-100"/>
+
+	<attack name="auraeletrica3" interval="6900" chance="100" range="3" min="-91" max="-151"/>
+</attacks>
+  <defenses armor="0" defense="0"/>
+  <voices interval="5000" chance="10">
+    <voice sentence="MAGNETON!"/>
+    <voice sentence="MAGNE!"/>
+  </voices>
+  <loot>
+		<item id="5893" chance="10000" count="2" countmax="1"/>
+		<item id="2667"  count="5" countmax="1" chance="500"/>
+		<item id="8204" count="2" countmax="1" chance="200"/>
+		<item id="11081"  count="1" countmax="1" chance="100"/>
+		<item id="2279" count="1" countmax="1" chance="50"/>
+		<item id="11090"  count="2" countmax="1" chance="150"/>
+
+
+  </loot>
+ <script>
+<event name="BlockHit6"></event>
+</script>
+
+</monster>

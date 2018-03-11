@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Hitmonlee" nameDescription="a Hitmonlee" race="fight" experience="4323" speed="310" manacost="0">
+  <health now="11000" max="11000"/>
+  <look type="20" head="0" body="0" legs="0" feet="0" corpse="6067"/>
+
+<targetchange interval="8000" chance="0" />
+<strategy attack="100" defense="10" />
+
+<!--Flags-->
+
+<flags>
+    <flag summonable="1"/>        
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  
+   <script>
+<event name="cabum"/>
+</script>
+
+	<attacks>
+   <attack name="melee" interval="2000" skill="30" attack="30"/>
+    <attack name="auralutador2" interval="8200" chance="100" min="-100" max="-200"/>
+
+    
+	</attacks>
+
+
+  <defenses armor="20" defense="15">
+  </defenses>
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Gnarrr!"/>
+  </voices>
+  <loot>
+		<item id="5898" chance="160" count="1" countmax="1"/>
+		<item id="9464"  count="1" countmax="1" chance="50"/>
+		<item id="11078" count="2" countmax="1" chance="150"/>
+		<item id="2281"  count="1" countmax="1" chance="50"/>
+		<item id="5877" count="2" countmax="1" chance="5000"/>
+		<item id="2691"  count="4" countmax="1" chance="1100"/>
+
+  </loot>
+ <script>
+<event name="BlockHit6"></event>
+</script>
+</monster>

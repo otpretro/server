@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Haunter" nameDescription="a Shiny Haunter" race="ghost" experience="0" speed="220" manacost="0">
+  <health now="3400" max="3400"/>
+  <look type="2168" head="20" body="30" legs="40" feet="50" corpse="6004"/>
+
+<targetchange interval="8000" chance="0" />
+<strategy attack="100" defense="10" />
+
+<!--Flags-->
+
+<flags>
+    <flag summonable="1"/>        
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+    <attacks>
+    <attack name="melee" interval="1800" min="-10" max="-60"/>
+  </attacks>
+
+  <defenses armor="14" defense="20"/>
+
+  <elements>
+  <element icePercent="50"/>
+  <element holyPercent="-15"/>
+  </elements>
+
+
+  <voices interval="2000" chance="100">
+    <voice sentence="Haunter"/>
+  </voices>
+
+</monster>

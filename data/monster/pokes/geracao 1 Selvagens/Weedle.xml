@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Wild Weedle" nameDescription="a Weedle" race="bug" experience="332" speed="120" manacost="200">
+  <health now="900" max="900"/>
+  <look type="21" head="20" body="30" legs="40" feet="50" corpse="5964"/>
+
+<targetchange interval="8000" chance="0" />
+<strategy attack="100" defense="10" />
+
+<!--Flags-->
+
+<flags>
+    <flag summonable="1"/>        
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+  <attacks>
+    <attack name="melee" interval="2000" range="1" min="-22" max="-38"/>
+  </attacks>
+  <defenses armor="0" defense="0"/>
+  <voices interval="5000" chance="10">
+    <voice sentence="WEE!"/>
+    <voice sentence="WEEDLE!"/>
+  </voices>
+  <loot>
+		<item id="2284" chance="50" count="1" countmax="1"/>
+		<item id="2787"  count="3" countmax="1" chance="9800"/>
+		<item id="5914" count="2" countmax="1" chance="1000"/>
+		<item id="9460"  count="1" countmax="1" chance="4100"/>
+		<item id="11082" count="1" countmax="1" chance="50"/>
+
+  </loot>
+ <script>
+<event name="BlockHit6"></event>
+</script>
+
+</monster>
+

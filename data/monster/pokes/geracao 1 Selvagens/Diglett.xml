@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Diglett" nameDescription="a Diglett" race="ground" experience="220" speed="135" manacost="355">
+  <health now="5500" max="5500"/>
+  <look type="82" head="20" body="30" legs="40" feet="50" corpse="6023"/>
+
+<targetchange interval="8000" chance="0" />
+<strategy attack="100" defense="10" />
+
+<!--Flags-->
+
+<flags>
+    <flag summonable="1"/>        
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  
+   <script>
+<event name="cabum"/>
+</script>
+
+  <attacks>
+    <attack name="melee" interval="2000" skill="15" attack="15"/>    
+<attack name="auraterra4" interval="2000" skill="15" attack="45"/>
+    
+
+  </attacks>
+  <defenses armor="14" defense="14"/>
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Diigleett"/>
+  </voices>
+  <loot>
+
+		<item id="5951" chance="10000" count="5" countmax="1"/>
+		<item id="11341"  count="1" countmax="1" chance="500"/>
+		<item id="5900" count="2" countmax="1" chance="1000"/>
+
+		<item id="11077"  count="1" countmax="1" chance="100"/>
+		<item id="2287" count="1" countmax="1" chance="50"/>
+
+		<item id="5877"  count="3" countmax="1" chance="110"/>
+		<item id="5880"  count="2" countmax="1" chance="150"/>
+		<item id="7242"  count="1" countmax="1" chance="400"/>
+                <item id="2678"  count="1" countmax="1" chance="400"/>
+
+  </loot>
+
+ <script>
+<event name="BlockHit6"></event>
+</script>
+
+</monster>
